@@ -1,0 +1,43 @@
+# ─── Data (never commit raw sequences) ────────────────────────────
+data/raw/
+data/interim/
+data/processed/
+
+# ─── Run outputs (local, not committed) ──────────────────────────
+runs/
+
+# ─── Python ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ─── Virtual environments ────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ─── IDE ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── OS ──────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+
+# ─── Credentials (NEVER commit) ─────────────────────────────────
+*.key
+*.pem
+.env
+# ─── Research archives and test cache ────────────────────────────
+historical_archive_20261017/
+.pytest_cache/
+# Old backup files
+*.backup.py
+*.bak

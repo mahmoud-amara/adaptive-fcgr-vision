@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adaptive-cgr-vision"
+version = "0.1.0"
+description = "Adaptive Alignment-Free Genomic Classification Using Image Processing and Machine Learning"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "scikit-learn>=1.3",
+    "scikit-image>=0.22",
+    "pandas>=2.1",
+    "pyyaml>=6.0",
+    "pyarrow>=14.0",
+    "biopython>=1.82",
+    "PyWavelets>=1.5",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "click>=8.1",
+    "joblib>=1.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+]
+sw = [
+    "parasail>=1.3",  # Smith-Waterman alignment baseline
+]
+boost = [
+    "xgboost>=2.0",   # optional gradient-boosted tree classifier
+]
+
+[project.scripts]
+cgr-vision = "adaptive_cgr_vision.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"

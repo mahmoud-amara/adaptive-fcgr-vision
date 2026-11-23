@@ -1,0 +1,117 @@
+# Confirmatory Configuration — Adaptive CGR-Vision
+# Status: APPROVED FOR CONFIRMATORY EVALUATION (2026-10-09)
+
+protocol_version: "1.0.0-confirmatory"
+run_mode: "confirmatory"
+created: "2026-10-09"
+
+# --- Dataset (Approved PD-01, PD-02, PD-03, PD-04, PD-05, PD-06) ---
+dataset:
+  source: "ncbi_refseq"
+  target_rank: "genus"
+  num_classes: 6
+  samples_per_class: 25
+  total_genomes: 150
+  organism_panel:
+    - "Escherichia"
+    - "Salmonella"
+    - "Pseudomonas"
+    - "Bacillus"
+    - "Staphylococcus"
+    - "Mycobacterium"
+  assembly_levels:
+    - "complete_genome"
+    - "chromosome"
+  replicon_policy: "primary_chromosome_only"
+  max_ambiguity_fraction: 0.01
+  min_length_bp: 1000000
+
+# --- Representation (Approved PD-08) ---
+representation:
+  method: "fcgr"
+  k: 6
+  corner_mapping:
+    A: [0.0, 0.0]
+    C: [0.0, 1.0]
+    G: [1.0, 1.0]
+    T: [1.0, 0.0]
+  row_origin: "top"
+  normalization: "count"
+  ambiguity_policy: "split_runs"
+  dtype: "float32"
+
+# --- Feature Extraction (Approved PD-09) ---
+features:
+  registry_version: "1.0.0"
+  families:
+    glcm:
+      enabled: true
+      quantization_levels: 32
+      quantization_method: "log1p_equal_width"
+      distances: [1, 2, 3]
+      angles_deg: [0, 45, 90, 135]
+      direction_aggregation: "mean"
+      properties: ["contrast", "dissimilarity", "homogeneity", "energy", "correlation", "entropy"]
+    spatial:
+      enabled: true
+      quadrant_grid: [2, 2]
+    frequency:
+      enabled: true
+      dct_bands: 4
+      wavelet_name: "haar"
+      wavelet_levels: 3
+    edge_contrast:
+      enabled: true
+      gradient_method: "sobel"
+      edge_thresholds: [0.01, 0.05, 0.1]
+      local_variance_windows: [3, 5]
+
+# --- Fusion (Approved PD-10) ---
+fusion:
+  primary_method: "simplex_grid_search"
+  weight_candidates: [0.0, 0.1, 0.25, 0.5, 0.75, 1.0]
+  weight_constraint: "nonneg_sum_to_one"
+  inner_cv_metric: "macro_f1"
+
+# --- Classifiers & Baselines (Approved PD-11) ---
+classifiers:
+  models:
+    - name: "svm_rbf"
+      grid:
+        C: [0.1, 1.0, 10.0, 100.0]
+        gamma: ["scale", "auto", 0.01, 0.1]
+    - name: "svm_linear"
+      grid:
+        C: [0.01, 0.1, 1.0, 10.0]
+    - name: "random_forest"
+      grid:
+        n_estimators: [100, 300]
+        max_depth: [null, 10, 20]
+  alignment_baselines:
+    - type: "smith_waterman_16s"
+      match_score: 2.0
+      mismatch_score: -3.0
+      open_gap: -5.0
+      extend_gap: -2.0
+    - type: "fastani_wholegenome"
+
+# --- Splitting & Leakage Prevention (Approved PD-07, PD-12) ---
+splitting:
+  outer_cv_folds: 5
+  inner_cv_folds: 4
+  grouping:
+    method: "minhash_ani"
+    threshold: 0.95
+    kmer_size: 21
+    sketch_size: 1000
+
+# --- Evaluation & Decision Rule (Approved PD-13) ---
+evaluation:
+  primary_metric: "macro_f1"
+  secondary_metrics: ["accuracy", "balanced_accuracy", "ece", "brier_score"]
+  uncertainty:
+    bootstrap_samples: 1000
+    confidence_level: 0.95
+    hypothesis_test: "paired_permutation"
+    permutations: 1000
+  practical_effect_threshold: 0.03

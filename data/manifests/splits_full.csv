@@ -1,0 +1,151 @@
+accession_id,label,group_id,length,ambiguous_count,ambiguous_fraction,checksum_sha256,description,fold
+NC_000913.3,Escherichia,Cluster_0001,4641652,0,0.0,e999dceccb76562d40e49a10d9e6d4cf1c05d184f4f80b92bb32d4a2420c11d0,"NC_000913.3 Escherichia coli str. K-12 substr. MG1655, complete genome",1
+NC_002695.2,Escherichia,Cluster_0002,5498578,0,0.0,ad9d153f9b437a8a169b0edba9e174458293c2e0c12588368f29b1e525c63b8a,"NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome",3
+NC_011750.1,Escherichia,Cluster_0003,5132068,0,0.0,8b151750a861ed91089b6538998f43f4052cd816a5890899299ff4ffc5c36b39,"NC_011750.1 Escherichia coli IAI39, complete sequence",2
+NC_011751.1,Escherichia,Cluster_0004,5202090,0,0.0,a1fcdef5bd320a9195a28c731d14ede62766f4d68d07e66e78cc61840fd5568a,"NC_011751.1 Escherichia coli UMN026, complete sequence",2
+NC_009801.1,Escherichia,Cluster_0005,4979619,0,0.0,680461c43adbe45037702298336cb21be2c7aef74dfd66acf352dd823522b75a,"NC_009801.1 Escherichia coli O139:H28 str. E24377A, complete sequence",1
+NC_013353.1,Escherichia,Cluster_0006,5449314,0,0.0,556e1a4664f9078658c0dfa1986afd0c4cbaebcb31f06cceb98c06ffdadb3630,"NC_013353.1 Escherichia coli O103:H2 str. 12009, complete sequence",4
+NC_011740.1,Escherichia,Cluster_0007,4588711,0,0.0,5adb0fdd26db0cfdf26c9f15a1550d98b44fde7088bc0a9dd0d8b834b8b8dadc,"NC_011740.1 Escherichia fergusonii ATCC 35469, complete sequence",0
+NC_008563.1,Escherichia,Cluster_0008,5082025,128,2.5186810375785244e-05,74b1add8ab40cecaf780eeef616d4711794b8cb904adbf4f7d562357e944c12e,"NC_008563.1 Escherichia coli APEC O1, complete sequence",0
+NC_010473.1,Escherichia,Cluster_0009,4686137,2,4.267907660403441e-07,c1539052b783e2205445e8a3846a3d5cc6df7ae07cd47de7595ca80ac7dd206c,"NC_010473.1 Escherichia coli str. K-12 substr. DH10B, complete sequence",1
+NC_012967.1,Escherichia,Cluster_0010,4629812,0,0.0,1416d1f031651da4e440638305422af58bb7a45e9218eb52a364f1c19ecee478,"NC_012967.1 Escherichia coli B str. REL606, complete sequence",4
+NC_017634.1,Escherichia,Cluster_0011,4747819,3,6.318690750426669e-07,1f391cd077bcd1d87a89af8a8fefd64146347d9ea3862dd9a51fdfb66123922d,"NC_017634.1 Escherichia coli O83:H1 str. NRG 857C, complete sequence",2
+NC_017644.1,Escherichia,Cluster_0012,4971461,0,0.0,1b3bb5d36bf03e1fb52b0190687f5d50168e9a5c24a50ce7060bbd73f12179b5,"NC_017644.1 Escherichia coli NA114, complete genome",4
+NC_017660.1,Escherichia,Cluster_0013,5021812,1,1.9913130957510953e-07,b9a18c025f4c7695b8c113c9facdbed32b368ce1dbd152ed59a39be513dcf03f,"NC_017660.1 Escherichia coli KO11FL, complete sequence",3
+NC_011353.1,Escherichia,Cluster_0014,5572075,0,0.0,2544b710004bac9ddbc0b5c5a9102dda9f21e927ab91f2264937aa1c83064bf8,"NC_011353.1 Escherichia coli O157:H7 str. EC4115, complete sequence",4
+NC_018658.1,Escherichia,Cluster_0015,5273097,0,0.0,2d128ea3dce2a18ab361493257173cb397d53792bbcd1233879976cb76222651,"NC_018658.1 Escherichia coli O104:H4 str. 2011C-3493, complete sequence",0
+NC_020518.1,Escherichia,Cluster_0016,3976195,0,0.0,29945aaf687449429b8766147cc040a0593ac7d75dc105d9ca44b272a9639330,"NC_020518.1 Escherichia coli str. K-12 substr. MDS42, complete genome",3
+NC_022648.1,Escherichia,Cluster_0017,5129938,0,0.0,b0bb55868eccfeab50b4a3031611a20811cf8cb6b4b03639285b1554a39a9521,"NC_022648.1 Escherichia coli JJ1886, complete sequence",0
+NC_017641.1,Escherichia,Cluster_0018,5186416,10,1.928113749456272e-06,1c6878dee8be6ac8b7e711938aa3ac58ef051977140028ce0b1eac1b1f6a7d9b,"NC_017641.1 Escherichia coli UMNK88, complete sequence",3
+NC_017638.1,Escherichia,Cluster_0019,4621430,0,0.0,785a1d5a674ebcf70d20840e7385de1c195126121f953328bd1dcbb6a8b00458,"NC_017638.1 Escherichia coli DH1, complete sequence",2
+NC_017626.1,Escherichia,Cluster_0020,5241977,0,0.0,7f3c6853c5eceedc3510dc09a9b2d864c1e1905b60a1c228af6d0d3f35a27275,"NC_017626.1 Escherichia coli 042, complete sequence",0
+NC_017631.1,Escherichia,Cluster_0021,5131397,0,0.0,6803a9e9c5fbff0106781e21d35ce682bcba3f4bc03c9e68bef0105443c6be30,"NC_017631.1 Escherichia coli ABU 83972, complete sequence",4
+NC_017632.1,Escherichia,Cluster_0022,4993013,575,0.00011516092587782167,21699843401dcc75fedd2d3a9d3012d6de8828849baf1e3a55691a8759d4afa9,"NC_017632.1 Escherichia coli UM146, complete sequence",1
+NC_017633.1,Escherichia,Cluster_0023,5153435,0,0.0,0b05d07888b99b545e00735555935eab5b863042d855bbc1acf91f528d97d2e2,"NC_017633.1 Escherichia coli ETEC H10407, complete sequence",1
+NC_012759.1,Escherichia,Cluster_0024,4578159,0,0.0,86869896daf56cd9516f215b73a104816889d6410ea06ece0e9258676694f797,"NC_012759.1 Escherichia coli BW2952, complete sequence",3
+NC_017646.1,Escherichia,Cluster_0025,5313531,0,0.0,ac4ddd8ab08c5b67e05f936874e7b440e3a2321f43ad1e04e5caee9057060b1c,"NC_017646.1 Escherichia coli O7:K1 str. CE10, complete sequence",2
+NC_003197.2,Salmonella,Cluster_0026,4857450,0,0.0,37854e9ce0ff2b3aa4a3394bfab5a63f4922d5e9479acb930558979ffca81326,"NC_003197.2 Salmonella enterica subsp. enterica serovar Typhimurium str. LT2, complete genome",4
+NC_003198.1,Salmonella,Cluster_0027,4809037,0,0.0,8545234d1b00441965b1f546d6d8d1e14c480b51375081a25bdf9733da1f088a,"NC_003198.1 Salmonella enterica subsp. enterica serovar Typhi str. CT18, complete sequence",4
+NC_006511.1,Salmonella,Cluster_0028,4585229,0,0.0,dbcb57a5edd84f46f3a50a520b51ecfa37a2cf26418caef6cc03b95114683caf,"NC_006511.1 Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150, complete sequence",4
+NC_006905.1,Salmonella,Cluster_0029,4755700,0,0.0,736b0341f63dd5d7e532d7f0962daee4707dd057103ae44d33ae8b5cbc6b7b96,"NC_006905.1 Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67, complete sequence",1
+NC_011083.1,Salmonella,Cluster_0030,4888768,0,0.0,11ca01b63ad53e3d769182e4ebdcfbb40dfb6c245d3aca63940280d7537eacd4,"NC_011083.1 Salmonella enterica subsp. enterica serovar Heidelberg str. SL476, complete sequence",3
+NC_011094.1,Salmonella,Cluster_0031,4709075,0,0.0,111d50e8b3199b4c47052dba11f760cc8ce0f9c3103480f2665ae1039a6c951d,"NC_011094.1 Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633, complete sequence",3
+NC_011149.1,Salmonella,Cluster_0032,4798660,0,0.0,b47eb2b0ad0b6414b9ff8b04fe7d0311ebcd5faf81095a287fa6a2f4412b1b28,"NC_011149.1 Salmonella enterica subsp. enterica serovar Agona str. SL483, complete sequence",1
+NC_011294.1,Salmonella,Cluster_0033,4685848,0,0.0,66714b014ecdc28cc35f912be5c28d6b3a8d7d4760305ade5a4132983a45bb00,"NC_011294.1 Salmonella enterica subsp. enterica serovar Enteritidis str. P125109, complete sequence",0
+NC_011274.1,Salmonella,Cluster_0034,4658697,0,0.0,e505b10e2abc4daa21f16c7ad963e30a3f687a93d7232c5ddb4356d4d3de51d4,"NC_011274.1 Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91, complete sequence",1
+NC_012125.1,Salmonella,Cluster_0035,4833080,0,0.0,8b74527e0e1014192cd7a167fad3bd7b1e3e5f097a30658c3850120a2044a14e,"NC_012125.1 Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594, complete sequence",4
+NC_012470.1,Salmonella,Cluster_0036,2149868,0,0.0,927427a5f28d87046078e5c236214f4410c644c8c068ca9f69ebefb5c40218b0,"NC_012470.1 Streptococcus equi subsp. zooepidemicus, complete sequence",2
+NC_015761.1,Salmonella,Cluster_0037,4460105,0,0.0,15712b174ad170a88f0241af4ddd1372394b451fadf8e607a942a7a5bf1a7c7b,"NC_015761.1 Salmonella bongori NCTC 12419, complete sequence",2
+NC_016810.1,Salmonella,Cluster_0038,4878012,0,0.0,ae80309f4a2a32e0a4d490c9aeef707921bf61aff3085ed7b66b11319fa2a02a,"NC_016810.1 Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344, complete sequence",0
+NC_016832.1,Salmonella,Cluster_0039,4768352,0,0.0,1993a8c72fe4babfe13b809d36360d4cf5118d65122f67b90275c44e167e791f,"NC_016832.1 Salmonella enterica subsp. enterica serovar Typhi str. P-stx-12, complete sequence",3
+NC_016854.1,Salmonella,Cluster_0040,4879400,0,0.0,68153df0ae0f4114130fa381a41555d0d81317187f56136973bb78ad1fa112cb,"NC_016854.1 Salmonella enterica subsp. enterica serovar Typhimurium str. D23580, complete sequence",0
+NC_010102.1,Salmonella,Cluster_0041,4858887,0,0.0,0d18cfe94f7869704bc88ea3733dd3c089e49f83c9c7705dfb8b98136c8614df,"NC_010102.1 Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7, complete sequence",2
+NC_016856.1,Salmonella,Cluster_0042,4870265,0,0.0,d2565b38ebdbf05ba157d47e583b50dbe21b398c8b27db74ab685519ca9a0531,"NC_016856.1 Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S, complete sequence",2
+NC_016857.1,Salmonella,Cluster_0038,4878013,0,0.0,d0547ee1378814063aff1e324883cea950554cd6df9f49b8e15120dce1cbd395,"NC_016857.1 Salmonella enterica subsp. enterica serovar Typhimurium str. ST4/74, complete sequence",0
+NC_021151.1,Salmonella,Cluster_0043,4852606,0,0.0,ef8ef2842aa5a171ec213c2029ed5d30268823fe1baff92474af64772703257d,"NC_021151.1 Salmonella enterica subsp. enterica serovar Typhimurium str. U288, complete sequence",2
+NC_021812.1,Salmonella,Cluster_0044,4783952,1,2.0903219764746803e-07,742d10585e3d85d6624291564c604e7d5d6c146063ea7cf34dff2ac653fbe1c5,"NC_021812.1 Salmonella enterica subsp. enterica Serovar Heidelberg str. CFSAN002069, complete genome",0
+NC_016860.1,Salmonella,Cluster_0045,4954814,0,0.0,4ff41c415364a695d5bc56ef3d3cd056787c795d524cf53f6ff24c7e62d1b83a,"NC_016860.1 Salmonella enterica subsp. enterica serovar Typhimurium str. T000240, complete sequence",3
+NC_021844.1,Salmonella,Cluster_0046,4730612,0,0.0,8dc62f0cd6eab55415b3dea908822f8da4d264bd1c8d807970dfa99a7cb38672,"NC_021844.1 Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000189, complete sequence",1
+NC_022569.1,Salmonella,Cluster_0047,4933631,0,0.0,a0e8cafc70a592a41b6b2803edda7624d9df8d439c6cc960f700670a6100e27d,"NC_022569.1 Salmonella enterica subsp. enterica serovar Typhimurium str. DT104, complete sequence",1
+NC_016863.1,Salmonella,Cluster_0048,4817868,2,4.151213773395203e-07,7ab630f946fb16190c7e8c0ed2ff89912bf078b2647076166b869b0b82caa0d8,"NC_016863.1 Salmonella enterica subsp. enterica serovar Typhimurium str. UK-1, complete sequence",3
+NC_020307.1,Salmonella,Cluster_0049,4634161,0,0.0,bf35192aaa027780170de5f6068c4b047423f111e34d13b855e543ed2e1c27c4,"NC_020307.1 Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992, complete sequence",4
+NC_002516.2,Pseudomonas,Cluster_0050,6264404,0,0.0,f969830bbe6aa58beccd852ae6e129a9489a92557ad082283f639b6e8539a340,"NC_002516.2 Pseudomonas aeruginosa PAO1, complete genome",4
+NC_002947.4,Pseudomonas,Cluster_0051,6181873,0,0.0,d774c84ca92c3a0abf47f5cbb0d7e2793ded7548a65dd806948df0de77f3a189,"NC_002947.4 Pseudomonas putida KT2440, complete sequence",0
+NC_004129.6,Pseudomonas,Cluster_0052,7074893,0,0.0,b1c644f9adc17f99fb7b76c1d5711801d67e555e9cebb55f69bbc2ec912a8353,"NC_004129.6 Pseudomonas protegens Pf-5, complete sequence",3
+NC_005773.3,Pseudomonas,Cluster_0053,5928787,0,0.0,74997c07ffae7e307f97161a0085b203850ee9ef7ca668a17112e8781bf12e23,"NC_005773.3 Pseudomonas savastanoi pv. phaseolicola 1448A, complete sequence",0
+NC_007005.1,Pseudomonas,Cluster_0054,6093698,0,0.0,08605af950d1443eb71bd0958cb51d47971f4070f86e4ded04cd733fd83e338a,"NC_007005.1 Pseudomonas syringae pv. syringae B728a, complete sequence",3
+NC_008463.1,Pseudomonas,Cluster_0055,6537648,11,1.682562291515236e-06,25be95a0e15d3c899083c1d971f07e77cff895398d3bdbeb305e5296b13f8442,"NC_008463.1 Pseudomonas aeruginosa UCBPP-PA14, complete sequence",1
+NC_009434.1,Pseudomonas,Cluster_0056,4567418,0,0.0,d2316205e64f81691ad81345a92a66286e17b0d8a149b6424ec63bd662d584e0,"NC_009434.1 Stutzerimonas stutzeri A1501, complete sequence",1
+NC_009512.1,Pseudomonas,Cluster_0057,5959964,0,0.0,1b51e8e52d5e21fc335cdf2e0721d00ad291b10dd72d5241e78f16bb420d96b9,"NC_009512.1 Pseudomonas putida F1, complete sequence",3
+NC_010322.1,Pseudomonas,Cluster_0058,6078430,0,0.0,f32b828118b89c513e27e86480087345f4d5ceaf2b087b935f8445b2e0d81ad1,"NC_010322.1 Pseudomonas putida GB-1, complete sequence",2
+NC_010501.1,Pseudomonas,Cluster_0059,5774330,0,0.0,f1898018f0f971ae40cfe2c4d7870494f658aec6db1b3d5bad63f7842c5f12f1,"NC_010501.1 Pseudomonas putida W619, complete sequence",1
+NC_011770.1,Pseudomonas,Cluster_0060,6601757,0,0.0,51cf1de940170cccc61a0c7fbcfd37e92ab3a581cb0d12290770ba37def91bd1,"NC_011770.1 Pseudomonas aeruginosa LESB58, complete sequence",4
+NC_012660.1,Pseudomonas,Cluster_0061,6722539,0,0.0,b1d5186fa55c633ebdc8a6fc9d218a31bb7a0baf89ae3c7a5b5b8deb06b4d85e,"NC_012660.1 Pseudomonas [fluorescens] SBW25, complete sequence",2
+NC_015379.1,Pseudomonas,Cluster_0062,6843248,0,0.0,05b0acb594dd63e60694f801565678654c0b7e8d07a2284b9a57f549e88822c9,"NC_015379.1 Pseudomonas brassicacearum subsp. brassicacearum NFM421, complete sequence",2
+NC_016830.1,Pseudomonas,Cluster_0063,6845832,0,0.0,4f1a61bfb3ffef1aeb0d37ead7f3287b57abb7c9480ccb845635cff8d673a137,"NC_016830.1 Pseudomonas ogarae, complete sequence",0
+NC_022808.1,Pseudomonas,Cluster_0064,6528877,0,0.0,ca2db7f52866810f098051e4a3d03e1b6e4f60809e1330c6ff8ba14e8f42b05c,"NC_022808.1 Pseudomonas aeruginosa PA1, complete genome",3
+NC_017986.1,Pseudomonas,Cluster_0065,6085449,0,0.0,f94ff56ef59fb534c41dfe642aec4f304bb26546b403a256592e98bd9dd2efcf,"NC_017986.1 Pseudomonas putida ND6, complete sequence",2
+NC_021505.1,Pseudomonas,Cluster_0066,6156701,0,0.0,fd3cb45bf79f50af612f21875841e3cb03d9648ca47cad93d5122a977d6631d1,"NC_021505.1 Pseudomonas putida NBRC 14164, complete sequence",2
+NC_021577.1,Pseudomonas,Cluster_0067,6342034,0,0.0,a3f8e1a245f3ffe45aa09de5580de81e8b8dabb338262d17a45358e148cb3c3b,"NC_021577.1 Pseudomonas aeruginosa RP73, complete sequence",0
+NC_022360.1,Pseudomonas,Cluster_0068,6262305,10121,0.001616178068618504,79f94081bf6703f69bd974666c60a109fdfa144ce22a23b4f4fb42a306206e43,"NC_022360.1 Pseudomonas aeruginosa c7447m, complete sequence",4
+NC_022361.1,Pseudomonas,Cluster_0069,6043974,14786,0.002446403641048092,a8f14c9a777d9ae4fe652e00864a59ce8dab8a7c82c959e9350e52c853211b7e,"NC_022361.1 Pseudomonas aeruginosa PAO581, complete sequence",4
+NC_018080.1,Pseudomonas,Cluster_0070,6402658,0,0.0,87d10aa0a1a57372862630dd50b13897571c4d89462c173ca15c2ddfb1e9c378,"NC_018080.1 Pseudomonas aeruginosa DK2, complete sequence",0
+NC_023066.1,Pseudomonas,Cluster_0071,6550070,0,0.0,80c019eeb79dfe93fc7e9811fce3923fcf94329406afe47f8ba8b861c92d8509,"NC_023066.1 Pseudomonas aeruginosa LES431, complete sequence",1
+NC_008027.1,Pseudomonas,Cluster_0072,5888780,0,0.0,c3723bb770932bd0e683803e5c4f4281ca6eb66e2df630ea43d561d07e0890d8,"NC_008027.1 Pseudomonas entomophila L48, complete sequence",3
+NC_009656.1,Pseudomonas,Cluster_0073,6588339,0,0.0,da3b4a5ea80117e8c29ad8b9d36e19b5cbf80b0ccb77066ab831d4541c0a9b25,"NC_009656.1 Pseudomonas paraeruginosa PA7, complete sequence",4
+NC_015733.1,Pseudomonas,Cluster_0074,5984790,0,0.0,1f85b97fc7a75e6be98c93580d77a7f1b8360a9e2314f5e3608b77a025e16311,"NC_015733.1 Pseudomonas putida S16, complete sequence",1
+NC_000964.3,Bacillus,Cluster_0075,4215606,0,0.0,71572ae0b98f44a6382b29e194e56c1f7d87477be8f53915fb06816f886b17b7,NC_000964.3 Bacillus subtilis subsp. subtilis str. 168 complete genome,0
+NC_004722.1,Bacillus,Cluster_0076,5411809,0,0.0,40be674876437146a218a2fbd0f434d7282e0ed10b761364e1d38148e9b240fb,"NC_004722.1 Bacillus cereus ATCC 14579, complete sequence",0
+NC_005957.1,Bacillus,Cluster_0077,5237682,1,1.9092415308909553e-07,1b6c68189ef5dd91d0b9a27712fbc8e01c7c2811bb8af5c99739386becf83856,"NC_005957.1 [Bacillus thuringiensis] serovar konkukian str. 97-27, complete sequence",1
+NC_006270.1,Bacillus,Cluster_0078,4222336,0,0.0,5e37f6b3f2f0b380feb3851d2777dfe923ef1d061ee4f31bcd8103923d071fa0,"NC_006270.1 Bacillus licheniformis DSM 13, complete genome",0
+NC_006322.1,Bacillus,Cluster_0079,4222645,0,0.0,b6b9877e4fba62954bf2ac2547387c87fbda5a5c78a9bb942e5c0c0ecf6bdd45,"NC_006322.1 Bacillus licheniformis DSM 13 = ATCC 14580, complete sequence",4
+NC_006461.1,Bacillus,Cluster_0080,1849742,7,3.784311541825833e-06,2df377fdfe18a96a39a1854e49fa32901fd754716aa09a65cf98dbf2c48b3870,"NC_006461.1 Thermus thermophilus HB8 chromosome 1, complete sequence",1
+NC_007530.2,Bacillus,Cluster_0081,5227419,0,0.0,b48f8b52c43a1074161df5b7688425dd07d8017d2204f4ed6f74d0d8f739b655,"NC_007530.2 Bacillus anthracis str. 'Ames Ancestor', complete sequence",2
+NC_007633.1,Bacillus,Cluster_0082,1010023,0,0.0,2a4ea23a179123213c4219b0c20abd08a6113a794ad40d30e46de3a0038e4ea8,"NC_007633.1 Mycoplasma capricolum subsp. capricolum ATCC 27343, complete sequence",4
+NC_008600.1,Bacillus,Cluster_0083,5257091,0,0.0,d73d21dfa193544d646bc71539fa3af9161dc0544e2667205d52b80798ca397e,"NC_008600.1 Bacillus thuringiensis str. Al Hakam, complete sequence",0
+NC_009725.1,Bacillus,Cluster_0084,3918589,0,0.0,cffdcc78c7a514dc228f03b19d9668c8501b57c03a5f57206d3661a1e89566a7,"NC_009725.1 Bacillus amyloliquefaciens subsp. plantarum str. FZB42, complete genome",3
+NC_009850.1,Bacillus,Cluster_0085,2341251,0,0.0,62dfe2609dc6fe597784b2c72e37fedca30aa6f7d7e343fece4f13550e290506,"NC_009850.1 Aliarcobacter butzleri RM4018, complete sequence",1
+NC_011658.1,Bacillus,Cluster_0086,5269030,0,0.0,aa04465a0d193ad66f5a91328417d3f18cd0147e29349810179fdd069cff3b8f,"NC_011658.1 Bacillus cereus AH187, complete sequence",2
+NC_011773.1,Bacillus,Cluster_0087,5302683,182,3.432224781304106e-05,4c6989299c94fcd34f5b4f34476ddad3b1966250304a2c60bcad3b4520648aa7,"NC_011773.1 Bacillus cereus AH820, complete sequence",3
+NC_012472.1,Bacillus,Cluster_0088,5269628,0,0.0,93fdf2112ff8767b1e209c955d24475e16dd6ebb4a1f6c13a724b891071bd020,"NC_012472.1 Bacillus cereus 03BB102, complete sequence",4
+NC_012726.1,Bacillus,Cluster_0089,2586647,0,0.0,9aeaf91ee38e27ff3c79e00ef76b29ae3d2eff0b9dcb8b4527d7fc69520434ba,"NC_012726.1 Saccharolobus islandicus M.16.4, complete sequence",3
+NC_014171.1,Bacillus,Cluster_0090,5330088,0,0.0,95795a250da0144306638516a8b67d8b658182d7cbd82d5cdb3a087daa887ea0,"NC_014171.1 Bacillus thuringiensis BMB171, complete sequence",4
+NC_014205.1,Bacillus,Cluster_0091,1580347,0,0.0,9264ec56344e6f548a156afaa05bd273bd93eb6f6499e24214598f3348e7a729,"NC_014205.1 Staphylothermus hellenicus DSM 12710, complete sequence",2
+NC_014334.1,Bacillus,Cluster_0092,2861848,0,0.0,1d5dc5f0063a0b018a2b3b478ceaac3f19ef6ec004e653b1d7456fc2c2d60e6c,"NC_014334.1 Lactobacillus casei str. Zhang chromosome, complete genome",0
+NC_014479.1,Bacillus,Cluster_0093,4027676,2,4.965642718033924e-07,ed0ca90019417ec217372f68929c9bdeea56c7545ca5dcd79e009980ac585e8f,"NC_014479.1 Bacillus spizizenii str. W23, complete sequence",1
+NC_014551.1,Bacillus,Cluster_0094,3980199,0,0.0,f82be6f3a90aafb4ffd686c0821d713e28bba00c76aa3bb3395fbae9a8ecaaa0,"NC_014551.1 Bacillus amyloliquefaciens DSM 7 = ATCC 23350, complete sequence",1
+NC_014639.1,Bacillus,Cluster_0095,4168266,0,0.0,3fe2a61e2ce417296474568af4b8610f2639e602a7c4c95ff7996b5f814226d3,"NC_014639.1 Bacillus atrophaeus 1942, complete sequence",2
+NC_015977.1,Bacillus,Cluster_0096,3592125,0,0.0,fe2232e1e39f6a53d831541538276d9b67dfe03a467d65b4df003d5bff273712,"NC_015977.1 Roseburia hominis A2-183, complete sequence",3
+NC_016784.1,Bacillus,Cluster_0097,4019861,3,7.462944614254075e-07,64bb13869da5273701ac5a2fa79a87de4d6dc329a95b2d7f793a8eaec9ecc65f,"NC_016784.1 Bacillus velezensis CAU B946, complete sequence",4
+NC_016047.1,Bacillus,Cluster_0098,4207222,0,0.0,679951197942606570ac64753a302ab7c0d45b09761be82cac9dc032aaac8e0f,"NC_016047.1 Bacillus spizizenii TU-B-10, complete sequence",2
+NC_017208.1,Bacillus,Cluster_0099,5486830,0,0.0,1d30e2f735de0fcdf454e8023c932bf57a3b604e7845f8eb92eb6b9fb7b777db,"NC_017208.1 Bacillus thuringiensis serovar chinensis CT-43, complete sequence",3
+NC_007795.1,Staphylococcus,Cluster_0100,2821361,1,3.544388683334036e-07,04fe982abc09948699461724b28b0283a506804ddd1cbf015814fe72b7d8fd0f,"NC_007795.1 Staphylococcus aureus subsp. aureus NCTC 8325 chromosome, complete genome",4
+NC_004461.1,Staphylococcus,Cluster_0101,2499279,0,0.0,35fe4063644f0e05ff5302b08893158040b973357e468b4db93aec7fcd91c4a0,"NC_004461.1 Staphylococcus epidermidis ATCC 12228, complete sequence",1
+NC_002745.2,Staphylococcus,Cluster_0102,2814816,0,0.0,d49d2fabfe92dc0dfe40dd38fa2603186aa47a30bbd99b87c60b7f085d6b7224,"NC_002745.2 Staphylococcus aureus subsp. aureus N315, complete sequence",0
+NC_002758.2,Staphylococcus,Cluster_0103,2878529,0,0.0,795ab22a05d8da2c28667ab6bb03225897c58022e1196c3751f4d408fad2f02a,"NC_002758.2 Staphylococcus aureus subsp. aureus Mu50, complete sequence",0
+NC_002952.2,Staphylococcus,Cluster_0104,2902619,0,0.0,f1f4f0d3e39bd11aed7ea42b1e81ec9a423a3cef39294e1604ddfb7d5cd6d763,"NC_002952.2 Staphylococcus aureus subsp. aureus MRSA252, complete sequence",2
+NC_002953.3,Staphylococcus,Cluster_0105,2799802,0,0.0,af42273e0ad6da8559efe951ead4ab439ff457b31cd9c7f6f7df2801e4ba792c,"NC_002953.3 Staphylococcus aureus subsp. aureus MSSA476, complete sequence",4
+NC_002976.3,Staphylococcus,Cluster_0106,2616530,0,0.0,98757881acaa243e2e61c24eae56d2f2f787c9120596726fc0b733e46b32ec22,"NC_002976.3 Staphylococcus epidermidis RP62A, complete sequence",3
+NC_003923.1,Staphylococcus,Cluster_0107,2820462,0,0.0,7c4947b9106af48ffee6bdf8dc29753333d97d2824092fb8228b57fc753d315d,"NC_003923.1 Staphylococcus aureus subsp. aureus MW2, complete sequence",3
+NC_004432.1,Staphylococcus,Cluster_0108,1358633,0,0.0,488759b72afdd973c36607765e9060251b4ec80d12972771df13d5ea684dbecd,"NC_004432.1 Malacoplasma penetrans HF-2, complete sequence",0
+NC_007350.1,Staphylococcus,Cluster_0109,2516575,0,0.0,c9511ab665c9c42837c63b9375acb4434d609834fcff06f16a0be022826c2b31,"NC_007350.1 Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305 = NCTC 7292, complete sequence",1
+NC_007622.1,Staphylococcus,Cluster_0110,2742531,0,0.0,d7fe8e4b75a374a01a654f877b42210afb95cea11ad071a93a2da023beb7a551,"NC_007622.1 Staphylococcus aureus RF122, complete sequence",1
+NC_007793.1,Staphylococcus,Cluster_0111,2872769,0,0.0,87c04eac47b3007bf2871b5513bf1558cbc7c5b0a8841fc10ed33d3076f60af5,"NC_007793.1 Staphylococcus aureus subsp. aureus USA300_FPR3757, complete sequence",4
+NC_017763.1,Staphylococcus,Cluster_0112,2832299,0,0.0,9799671038f235a647b4b7f18818d385773841454f0686005cccbf577114c418,"NC_017763.1 Staphylococcus aureus subsp. aureus HO 5096 0412, complete sequence",4
+NC_009632.1,Staphylococcus,Cluster_0113,2906507,0,0.0,14e8a86f17da755f0a2b6b80ed4c4a7eaf2f3dea4a7fd08cc76174ab32f41e4c,"NC_009632.1 Staphylococcus aureus subsp. aureus JH1, complete sequence",1
+NC_009641.1,Staphylococcus,Cluster_0114,2878897,0,0.0,4306a59bf1e6ab9a8700cb2f10820ae42fecbb36b09e57ccf79dc387bb419987,"NC_009641.1 Staphylococcus aureus subsp. aureus str. Newman, complete sequence",3
+NC_010079.1,Staphylococcus,Cluster_0115,2872915,0,0.0,cd4872288fd5c153cb3bcaf63d518dab27b1223ff08f26cac770fda4195f5a14,"NC_010079.1 Staphylococcus aureus subsp. aureus USA300_TCH1516, complete sequence",3
+NC_013450.1,Staphylococcus,Cluster_0116,2824404,0,0.0,045d484d5e31d2e82f20b26d359464c16f81d924cef6d93d262abc0767af21bc,"NC_013450.1 Staphylococcus aureus subsp. aureus ED98, complete sequence",4
+NC_016941.1,Staphylococcus,Cluster_0117,2762785,2,7.239072168120213e-07,4ea0c6e987738ed82ca15e59ead22601effeca2938d604c276c1641e892e7e14,"NC_016941.1 Staphylococcus argenteus, complete sequence",1
+NC_017337.1,Staphylococcus,Cluster_0118,2832478,0,0.0,0b9b98c4e938ed539a009db339325c63406828711429d9369860f45594f0096e,"NC_017337.1 Staphylococcus aureus subsp. aureus ED133, complete sequence",3
+NC_017338.1,Staphylococcus,Cluster_0119,2811435,0,0.0,5e6b8878f06fa635bdcb59bf4740af702ddf2c3c98e9008551139938f57b7243,"NC_017338.1 Staphylococcus aureus subsp. aureus JKD6159, complete sequence",0
+NC_017340.1,Staphylococcus,Cluster_0120,2821452,0,0.0,c70f6f4cfaf56febb8fa488cfabbe94c7a835c4cbbcfeecb1b8809015287e8ea,"NC_017340.1 Staphylococcus aureus 04-02981, complete sequence",2
+NC_017342.1,Staphylococcus,Cluster_0121,2802675,0,0.0,136bec4d49e948e260c147bb0f3aa87e1e0c2281ad517a494bcbeac43acd373a,"NC_017342.1 Staphylococcus aureus subsp. aureus TCH60, complete sequence",2
+NC_017343.1,Staphylococcus,Cluster_0122,2729540,0,0.0,b9bd5086da208794d2b498cd9f1901d9b44d61ebaebc4b2c98d6805f7697d3e8,"NC_017343.1 Staphylococcus aureus subsp. aureus ECT-R 2, complete sequence",2
+NC_017353.1,Staphylococcus,Cluster_0123,2595888,7,2.6965724253126483e-06,e9364f9a27e6b5bf6a4a48fff0c70eb2e6378a32bb9adaf429cba41d1a84ee7f,"NC_017353.1 Staphylococcus lugdunensis N920143, complete sequence",0
+NC_017349.1,Staphylococcus,Cluster_0124,2750834,0,0.0,b296a45599db8d976896f3758a9a41437242fb05a7b85c4ab6714553ca887c8d,"NC_017349.1 Staphylococcus aureus subsp. aureus LGA251, complete sequence",2
+NC_000962.3,Mycobacterium,Cluster_0125,4411532,0,0.0,72cab373ca5626cda25fae724432fd4da863ebeac9462f18b151c7a889be8284,"NC_000962.3 Mycobacterium tuberculosis H37Rv, complete genome",4
+NC_008596.1,Mycobacterium,Cluster_0126,6988209,0,0.0,489adfcb0c2b079ab82b8be250c311029900e179d38a3ff4a158708f8ed678cd,"NC_008596.1 Mycolicibacterium smegmatis MC2 155, complete sequence",2
+NC_002945.4,Mycobacterium,Cluster_0127,4349904,0,0.0,3cb016337521da2b69dda9cbe59a969a3e359835a581f95eede2a9f9c07ff3b3,"NC_002945.4 Mycobacterium tuberculosis variant bovis AF2122/97 chromosome Mycobacterium_bovis_AF212297, complete sequence",1
+NC_008705.1,Mycobacterium,Cluster_0128,5737227,0,0.0,03c42c76894629bb240d1928e97095f14cf6a5cfaff294049586936ad744b91b,"NC_008705.1 Mycobacterium sp. KMS, complete sequence",1
+NC_009077.1,Mycobacterium,Cluster_0129,6048425,0,0.0,fa9115b9bf2b53cdc25bd763a789da0b734c7f81ce5f945180fc46159213bd7a,"NC_009077.1 Mycobacterium sp. JLS, complete genome",0
+NC_008595.1,Mycobacterium,Cluster_0130,5475491,0,0.0,c6ea9223215471f4b3bd4aedf17ff4ec69730f5086c1d67b6517acab8bed426a,"NC_008595.1 Mycobacterium avium 104, complete sequence",4
+NC_002677.1,Mycobacterium,Cluster_0131,3268203,0,0.0,8ea858e92c9ac2c15f6f802af3a914a61cb5b5df429cf3a36b305f7856f977f3,"NC_002677.1 Mycobacterium leprae TN, complete sequence",1
+NC_015758.1,Mycobacterium,Cluster_0132,4389314,0,0.0,6f30ee63e3380e843e28bbab7415df4f6adf7cf0431e7ddfd1a73e7885f8960f,"NC_015758.1 Mycobacterium tuberculosis variant africanum GM041182, complete sequence",4
+NC_015848.1,Mycobacterium,Cluster_0133,4482059,0,0.0,8e8a0088d01930446e9b513c288693f108b583fcc5b82953cf9327834f160b2b,"NC_015848.1 Mycobacterium canetti CIPT 140010059, complete sequence",1
+NC_016803.1,Mycobacterium,Cluster_0134,3858580,0,0.0,4bbabb2df6da45e77241fc9d685760527fd36ea46326c0bfb671680e7efc5c68,"NC_016803.1 Pseudodesulfovibrio mercurii, complete sequence",2
+NC_016843.1,Mycobacterium,Cluster_0135,1139417,105,9.215239021359169e-05,e83171179e616445d44ce6c0f307099699829791f92924d2dfd1c5c0fb4a2bdd,"NC_016843.1 Treponema pallidum subsp. pertenue str. Gauthier, complete sequence",3
+NC_016946.1,Mycobacterium,Cluster_0136,5402402,0,0.0,4747742f13db6863a3010540b4e56a86a5583c2dcc4ff27703d1cb967612cc10,"NC_016946.1 Mycobacterium intracellulare ATCC 13950, complete sequence",0
+NC_017523.1,Mycobacterium,Cluster_0137,4398812,0,0.0,993514cec7b1e50ecb717e0e103851bc9a7dc49aa425e1f5bac6afe5de3040f5,"NC_017523.1 Mycobacterium tuberculosis CCDC5079, complete genome",2
+NC_018078.1,Mycobacterium,Cluster_0138,4399120,0,0.0,c78df47be437b3298034019d2001113ebc64a1384920778caf326105c5b7775a,"NC_018078.1 Mycobacterium tuberculosis KZN 605, complete sequence",1
+NC_018143.2,Mycobacterium,Cluster_0139,4411709,0,0.0,c3426d66b311354afa8fa329c869ca138afae92f2adee2c111315f96c5bc5b65,"NC_018143.2 Mycobacterium tuberculosis H37Rv, complete sequence",0
+NC_017524.1,Mycobacterium,Cluster_0140,4398525,0,0.0,3020bb263f2be896fd2e8f77dc1d18b1ecfe35bf5dd08e24ecb95a018c78e8a8,"NC_017524.1 Mycobacterium tuberculosis CTRI-2, complete sequence",0
+NC_016768.1,Mycobacterium,Cluster_0141,4394985,0,0.0,f784e992a07c170b0e699639b4f265a6c21b32feee798b0db05e42ae6d73da33,"NC_016768.1 Mycobacterium tuberculosis KZN 4207, complete sequence",3
+NC_020089.1,Mycobacterium,Cluster_0142,4421197,0,0.0,d5f8f29303923feb103623dbdb9038cfa66fb63a87dce6439b417589a91e98d6,"NC_020089.1 Mycobacterium tuberculosis 7199-99, complete sequence",3
+NC_021054.1,Mycobacterium,Cluster_0143,4411128,0,0.0,b2ba04a11a196008cd950c7c45373a6526856f681cfc54f18169e400ab3c7976,"NC_021054.1 Mycobacterium tuberculosis str. Beijing/NITR203, complete genome",4
+NC_021193.1,Mycobacterium,Cluster_0144,4392876,0,0.0,9a95a2b2e3b42bfe1d23de77c57b9f7b1d26cd3a6b2955e10558d22c556f2b1a,"NC_021193.1 Mycobacterium tuberculosis CAS/NITR204, complete genome",3
+NC_021251.1,Mycobacterium,Cluster_0145,4414325,0,0.0,bae620c172e16589cd5f854681b9b0e80efb5cdf4bca305ba62db7c96511bb63,"NC_021251.1 Mycobacterium tuberculosis CCDC5079, complete sequence",2
+NC_021740.1,Mycobacterium,Cluster_0146,4391174,0,0.0,c03667362801fe70c7babcfb5c36c003a9de4e988803c248bf6933541ad515cc,"NC_021740.1 Mycobacterium tuberculosis EAI5, complete sequence",4
+NC_022350.1,Mycobacterium,Cluster_0147,4408224,0,0.0,3c94ad66337e23b6aabe310592503ec572ff35094cb0708846ddf1f75622db49,"NC_022350.1 Mycobacterium tuberculosis str. Haarlem, complete sequence",3
+NC_019950.1,Mycobacterium,Cluster_0148,4432426,1172,0.0002644150178705747,9724786b8a2718d9e21fa48b00478b9c825065694abaf029564b67d763815586,"NC_019950.1 Mycobacterium canetti CIPT 140060008, complete sequence",0
+NC_022663.1,Mycobacterium,Cluster_0149,6432277,0,0.0,bda1e3ccb3333ba950d5c13eed1375cf26666af72e8341e9aa3d73dacddd45e9,"NC_022663.1 Mycobacterium kansasii ATCC 12478, complete sequence",2
