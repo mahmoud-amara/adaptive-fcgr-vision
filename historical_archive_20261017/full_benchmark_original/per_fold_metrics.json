@@ -1,0 +1,2074 @@
+{
+  "Adaptive_SVM_RBF": [
+    {
+      "macro_f1": 0.8993265993265993,
+      "weighted_f1": 0.8993265993265993,
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.8999999999999999,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.1392687261914099,
+      "brier_score": 0.17700766004492408,
+      "fold": 0,
+      "elapsed_sec": 0.017365455627441406,
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9326599326599326,
+      "weighted_f1": 0.9326599326599326,
+      "accuracy": 0.9333333333333333,
+      "balanced_accuracy": 0.9333333333333332,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.1777723277030825,
+      "brier_score": 0.14747283103178208,
+      "fold": 1,
+      "elapsed_sec": 0.014357328414916992,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.8993265993265994,
+      "weighted_f1": 0.8993265993265993,
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.9,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.13042061455345902,
+      "brier_score": 0.18797656176060595,
+      "fold": 2,
+      "elapsed_sec": 0.015263557434082031,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.8663299663299663,
+      "weighted_f1": 0.8663299663299663,
+      "accuracy": 0.8666666666666667,
+      "balanced_accuracy": 0.8666666666666667,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.22064833319595586,
+      "brier_score": 0.23119800185211317,
+      "fold": 3,
+      "elapsed_sec": 0.015681028366088867,
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9663299663299663,
+      "weighted_f1": 0.9663299663299664,
+      "accuracy": 0.9666666666666667,
+      "balanced_accuracy": 0.9666666666666667,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.22239091097760572,
+      "brier_score": 0.14479090034456701,
+      "fold": 4,
+      "elapsed_sec": 0.014080047607421875,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    }
+  ],
+  "Adaptive_SVM_Linear": [
+    {
+      "macro_f1": 0.9326599326599326,
+      "weighted_f1": 0.9326599326599326,
+      "accuracy": 0.9333333333333333,
+      "balanced_accuracy": 0.9333333333333332,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.18969071056377898,
+      "brier_score": 0.1912131524792314,
+      "fold": 0,
+      "elapsed_sec": 0.013602972030639648,
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.932996632996633,
+      "weighted_f1": 0.9329966329966329,
+      "accuracy": 0.9333333333333333,
+      "balanced_accuracy": 0.9333333333333332,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.1969733114950248,
+      "brier_score": 0.21902178578887904,
+      "fold": 1,
+      "elapsed_sec": 0.013297796249389648,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9015151515151517,
+      "weighted_f1": 0.9015151515151516,
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.8999999999999999,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.1940680570699638,
+      "brier_score": 0.21679439742104806,
+      "fold": 2,
+      "elapsed_sec": 0.012271642684936523,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.8996632996632995,
+      "weighted_f1": 0.8996632996632996,
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.9,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.256044501460333,
+      "brier_score": 0.22190181377085458,
+      "fold": 3,
+      "elapsed_sec": 0.012776374816894531,
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9326599326599326,
+      "weighted_f1": 0.9326599326599326,
+      "accuracy": 0.9333333333333333,
+      "balanced_accuracy": 0.9333333333333332,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.27668661387780463,
+      "brier_score": 0.16413558705466944,
+      "fold": 4,
+      "elapsed_sec": 0.01206350326538086,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    }
+  ],
+  "Adaptive_RandomForest": [
+    {
+      "macro_f1": 0.932996632996633,
+      "weighted_f1": 0.9329966329966329,
+      "accuracy": 0.9333333333333333,
+      "balanced_accuracy": 0.9333333333333332,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.0743333333333333,
+      "brier_score": 0.09204666666666665,
+      "fold": 0,
+      "elapsed_sec": 0.27945733070373535,
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.8943602693602694,
+      "weighted_f1": 0.8943602693602695,
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.9,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.07333333333333339,
+      "brier_score": 0.10605333333333333,
+      "fold": 1,
+      "elapsed_sec": 0.27471160888671875,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9326599326599326,
+      "weighted_f1": 0.9326599326599326,
+      "accuracy": 0.9333333333333333,
+      "balanced_accuracy": 0.9333333333333332,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.07633333333333336,
+      "brier_score": 0.11009333333333333,
+      "fold": 2,
+      "elapsed_sec": 0.2590322494506836,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9326599326599326,
+      "weighted_f1": 0.9326599326599326,
+      "accuracy": 0.9333333333333333,
+      "balanced_accuracy": 0.9333333333333332,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.09566666666666655,
+      "brier_score": 0.13,
+      "fold": 3,
+      "elapsed_sec": 0.2660696506500244,
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9663299663299664,
+      "weighted_f1": 0.9663299663299664,
+      "accuracy": 0.9666666666666667,
+      "balanced_accuracy": 0.9666666666666667,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.058,
+      "brier_score": 0.04445999999999999,
+      "fold": 4,
+      "elapsed_sec": 0.27152252197265625,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    }
+  ],
+  "Fixed_SVM_RBF": [
+    {
+      "macro_f1": 0.8993265993265993,
+      "weighted_f1": 0.8993265993265993,
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.8999999999999999,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.1584081804663729,
+      "brier_score": 0.16948918542449767,
+      "fold": 0,
+      "elapsed_sec": 0.014587640762329102,
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9326599326599326,
+      "weighted_f1": 0.9326599326599326,
+      "accuracy": 0.9333333333333333,
+      "balanced_accuracy": 0.9333333333333332,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.1596567735767494,
+      "brier_score": 0.11023690781996535,
+      "fold": 1,
+      "elapsed_sec": 0.015222787857055664,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9326599326599326,
+      "weighted_f1": 0.9326599326599326,
+      "accuracy": 0.9333333333333333,
+      "balanced_accuracy": 0.9333333333333332,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.1855396392652013,
+      "brier_score": 0.13115336231588043,
+      "fold": 2,
+      "elapsed_sec": 0.01447439193725586,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.8663299663299663,
+      "weighted_f1": 0.8663299663299663,
+      "accuracy": 0.8666666666666667,
+      "balanced_accuracy": 0.8666666666666667,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.11646770899743444,
+      "brier_score": 0.21427667937411368,
+      "fold": 3,
+      "elapsed_sec": 0.014034271240234375,
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9663299663299663,
+      "weighted_f1": 0.9663299663299664,
+      "accuracy": 0.9666666666666667,
+      "balanced_accuracy": 0.9666666666666667,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.21118266671274888,
+      "brier_score": 0.11302721254752922,
+      "fold": 4,
+      "elapsed_sec": 0.018564701080322266,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    }
+  ],
+  "Raw_FCGR_SVM_RBF": [
+    {
+      "macro_f1": 0.8993265993265993,
+      "weighted_f1": 0.8993265993265993,
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.8999999999999999,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.16624290163822458,
+      "brier_score": 0.19703058340614232,
+      "fold": 0,
+      "elapsed_sec": 0.07616305351257324,
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.8946969696969697,
+      "weighted_f1": 0.8946969696969698,
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.9,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.18978448370291595,
+      "brier_score": 0.10215073200998792,
+      "fold": 1,
+      "elapsed_sec": 0.07909011840820312,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9663299663299663,
+      "weighted_f1": 0.9663299663299664,
+      "accuracy": 0.9666666666666667,
+      "balanced_accuracy": 0.9666666666666667,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.14232233212568676,
+      "brier_score": 0.11140808160066175,
+      "fold": 2,
+      "elapsed_sec": 0.07846379280090332,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9018518518518519,
+      "weighted_f1": 0.9018518518518519,
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.9,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.13633714818294657,
+      "brier_score": 0.21194420502371047,
+      "fold": 3,
+      "elapsed_sec": 0.07502555847167969,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9326599326599326,
+      "weighted_f1": 0.9326599326599326,
+      "accuracy": 0.9333333333333333,
+      "balanced_accuracy": 0.9333333333333332,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "ece": 0.1468767125231938,
+      "brier_score": 0.12070459103903855,
+      "fold": 4,
+      "elapsed_sec": 0.07935047149658203,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    }
+  ],
+  "Mash_1NN": [
+    {
+      "macro_f1": 0.8171296296296297,
+      "weighted_f1": 0.8171296296296295,
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.7999999999999999,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "fold": 0,
+      "elapsed_sec": 0.8273975849151611,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.8353775853775853,
+      "weighted_f1": 0.8353775853775853,
+      "accuracy": 0.8333333333333334,
+      "balanced_accuracy": 0.8333333333333334,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "fold": 1,
+      "elapsed_sec": 0.8293025493621826,
+      "confusion_matrix": [
+        [
+          3,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.8058862433862434,
+      "weighted_f1": 0.8058862433862434,
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.8000000000000002,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "fold": 2,
+      "elapsed_sec": 0.7895708084106445,
+      "confusion_matrix": [
+        [
+          3,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.8058862433862434,
+      "weighted_f1": 0.8058862433862435,
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.7999999999999999,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "fold": 3,
+      "elapsed_sec": 0.8011589050292969,
+      "confusion_matrix": [
+        [
+          2,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.905982905982906,
+      "weighted_f1": 0.9059829059829059,
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.8999999999999999,
+      "num_samples": 30,
+      "classes": [
+        "Bacillus",
+        "Escherichia",
+        "Mycobacterium",
+        "Pseudomonas",
+        "Salmonella",
+        "Staphylococcus"
+      ],
+      "fold": 4,
+      "elapsed_sec": 0.8035740852355957,
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          4
+        ]
+      ]
+    }
+  ]
+}

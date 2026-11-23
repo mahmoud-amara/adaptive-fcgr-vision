@@ -1,0 +1,8 @@
+model_name,feature_dim,matrix_storage_kb,test_macro_f1_mean,test_macro_f1_std,test_accuracy_mean,test_accuracy_std,train_time_mean_ms,train_peak_ram_kb,single_inference_latency_median_ms,single_inference_latency_mean_ms,batch30_throughput_genomes_per_sec,precomputed_e2e_latency_ms,precomputed_e2e_throughput_genomes_per_sec,generalization_gap_f1
+Raw_FCGR_4096D__SVM_RBF,4096,4800.0,0.9472,0.0334,0.9467,0.034,17.939,3850.24,0.3271,0.3336,5640.09,0.33,3033.26,0.0227
+Raw_FCGR_4096D__RandomForest,4096,4800.0,0.9332,0.0204,0.9333,0.0211,846.411,2165.69,5.9971,6.1268,4617.0,6.0,166.68,0.0668
+Multiscale_59D__SVM_RBF,59,69.14,0.9195,0.034,0.92,0.034,5.009,63.25,0.1286,0.1337,80578.23,8.188,122.14,0.0238
+Multiscale_59D__RandomForest,59,69.14,0.9246,0.0267,0.9267,0.0249,822.046,205.93,11.1702,11.8871,2268.05,19.229,52.0,0.0754
+Multiscale_59D__RandomForest_Regularized,59,69.14,0.9122,0.0339,0.9133,0.034,1758.694,205.18,26.8846,24.4388,1244.07,,,0.0744
+GLCM_18D__RandomForest,18,21.09,0.9331,0.0371,0.9333,0.0365,2563.422,185.27,26.9916,28.2138,1039.66,30.133,33.19,0.0669
+Mash_1NN__Distance_Baseline,1000,1171.88,0.877,0.0373,0.8733,0.0389,0.313,11.24,80.8538,82.1697,11.85,,,0.123

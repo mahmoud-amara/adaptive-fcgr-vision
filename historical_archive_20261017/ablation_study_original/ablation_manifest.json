@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-10-09T20:01:30.882865+00:00",
+  "seed": 42,
+  "outer_folds": 5,
+  "dataset_manifest": "d:\\Image Research paper\\data\\manifests\\dataset_manifest_full.csv",
+  "splits_file": "d:\\Image Research paper\\data\\manifests\\splits_full.csv",
+  "fcgr_cache": "d:\\Image Research paper\\data\\processed\\fcgr_matrices_cache.pkl",
+  "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "sklearn_version": "1.9.1",
+  "command_args": [
+    "D:\\Image Research paper\\scripts\\run_ablation_study.py"
+  ]
+}

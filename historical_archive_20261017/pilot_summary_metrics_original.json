@@ -1,0 +1,60 @@
+{
+  "num_pilot_samples": 18,
+  "classes": [
+    "Escherichia",
+    "Pseudomonas",
+    "Mycobacterium",
+    "Salmonella",
+    "Bacillus",
+    "Staphylococcus"
+  ],
+  "num_clusters": 18,
+  "cluster_distribution": {
+    "Cluster_0001": 1,
+    "Cluster_0002": 1,
+    "Cluster_0003": 1,
+    "Cluster_0004": 1,
+    "Cluster_0005": 1,
+    "Cluster_0006": 1,
+    "Cluster_0007": 1,
+    "Cluster_0008": 1,
+    "Cluster_0009": 1,
+    "Cluster_0010": 1,
+    "Cluster_0011": 1,
+    "Cluster_0012": 1,
+    "Cluster_0013": 1,
+    "Cluster_0014": 1,
+    "Cluster_0015": 1,
+    "Cluster_0016": 1,
+    "Cluster_0017": 1,
+    "Cluster_0018": 1
+  },
+  "pilot_summary": {
+    "Adaptive_Fusion_SVM_RBF": {
+      "mean_macro_f1": 0.9259259259259259,
+      "std_macro_f1": 0.10475656017578482,
+      "mean_accuracy": 0.9444444444444445
+    },
+    "Fixed_Fusion_SVM_RBF": {
+      "mean_macro_f1": 0.8518518518518517,
+      "std_macro_f1": 0.10475656017578484,
+      "mean_accuracy": 0.888888888888889
+    },
+    "Raw_FCGR_SVM_RBF": {
+      "mean_macro_f1": 0.8518518518518517,
+      "std_macro_f1": 0.10475656017578482,
+      "mean_accuracy": 0.888888888888889
+    },
+    "Adaptive_Fusion_RandomForest": {
+      "mean_macro_f1": 0.8518518518518517,
+      "std_macro_f1": 0.2095131203515697,
+      "mean_accuracy": 0.8888888888888888
+    }
+  },
+  "pilot_elapsed_sec": 264.2805552482605,
+  "avg_feat_time_sec": 2.92064983314938,
+  "proj_full_feat_time_min": 7.30162458287345,
+  "proj_total_benchmark_time_min": 7.67662458287345,
+  "manifest_path": "d:\\Image Research paper\\data\\manifests\\dataset_manifest_pilot.csv",
+  "splits_path": "d:\\Image Research paper\\data\\manifests\\splits_pilot.csv"
+}

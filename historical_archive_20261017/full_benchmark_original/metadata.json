@@ -1,0 +1,12 @@
+{
+  "run_id": "full_confirmatory_v1",
+  "experiment_name": "confirmatory_benchmark",
+  "timestamp_utc": "2026-10-09T19:26:05.824331+00:00",
+  "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "random_seed": 42,
+  "dataset_manifest_checksum": "",
+  "config_dict": {},
+  "model_name": "multi_model_full",
+  "fusion_method": "adaptive_vs_baselines",
+  "cv_folds": 5
+}

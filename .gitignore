@@ -36,7 +36,6 @@ Thumbs.db
 *.pem
 .env
 # ─── Research archives and test cache ────────────────────────────
-historical_archive_20261017/
 .pytest_cache/
 # Old backup files
 *.backup.py

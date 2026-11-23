@@ -1,0 +1,517 @@
+{
+  "timestamp_utc": "2026-10-09T20:01:30.875251+00:00",
+  "seed": 42,
+  "n_genomes": 150,
+  "outer_folds": 5,
+  "python_version": "3.14.3",
+  "sklearn_version": "1.9.1",
+  "command": "python -m scripts.run_ablation_study",
+  "representations": {
+    "GLCM_Texture_Only": {
+      "families": [
+        "glcm"
+      ],
+      "n_features": 18,
+      "extraction_time_sec": 0.24618816375732422,
+      "feature_names": [
+        "glcm_contrast_d1",
+        "glcm_contrast_d2",
+        "glcm_contrast_d3",
+        "glcm_correlation_d1",
+        "glcm_correlation_d2",
+        "glcm_correlation_d3",
+        "glcm_dissimilarity_d1",
+        "glcm_dissimilarity_d2",
+        "glcm_dissimilarity_d3",
+        "glcm_energy_d1",
+        "glcm_energy_d2",
+        "glcm_energy_d3",
+        "glcm_entropy_d1",
+        "glcm_entropy_d2",
+        "glcm_entropy_d3",
+        "glcm_homogeneity_d1",
+        "glcm_homogeneity_d2",
+        "glcm_homogeneity_d3"
+      ],
+      "models": {
+        "SVM_RBF": {
+          "mean_macro_f1": 0.7807168757168758,
+          "std_macro_f1": 0.06428729589192991,
+          "mean_accuracy": 0.7933333333333333,
+          "std_accuracy": 0.053333333333333365,
+          "per_fold_f1": [
+            0.7234432234432234,
+            0.8310606060606062,
+            0.8611111111111112,
+            0.7973128723128723,
+            0.6906565656565656
+          ],
+          "per_fold_accuracy": [
+            0.7333333333333333,
+            0.8333333333333334,
+            0.8666666666666667,
+            0.8,
+            0.7333333333333333
+          ],
+          "pooled_f1": 0.7904932081693089,
+          "pooled_accuracy": 0.7933333333333333,
+          "bootstrap_ci_95": [
+            0.7217273804642722,
+            0.8455781827410318
+          ]
+        },
+        "RandomForest": {
+          "mean_macro_f1": 0.933131313131313,
+          "std_macro_f1": 0.03708283058179177,
+          "mean_accuracy": 0.9333333333333333,
+          "std_accuracy": 0.036514837167011066,
+          "per_fold_f1": [
+            0.932996632996633,
+            0.9351851851851851,
+            0.9663299663299663,
+            0.8648148148148148,
+            0.9663299663299663
+          ],
+          "per_fold_accuracy": [
+            0.9333333333333333,
+            0.9333333333333333,
+            0.9666666666666667,
+            0.8666666666666667,
+            0.9666666666666667
+          ],
+          "pooled_f1": 0.9329257503884735,
+          "pooled_accuracy": 0.9333333333333333,
+          "bootstrap_ci_95": [
+            0.89120954302609,
+            0.9691092767000644
+          ]
+        }
+      }
+    },
+    "Spatial_Distribution_Only": {
+      "families": [
+        "spatial"
+      ],
+      "n_features": 12,
+      "extraction_time_sec": 0.03725767135620117,
+      "feature_names": [
+        "spatial_centroid_col",
+        "spatial_centroid_row",
+        "spatial_col_marginal_std",
+        "spatial_covar",
+        "spatial_entropy",
+        "spatial_mass_q00",
+        "spatial_mass_q01",
+        "spatial_mass_q10",
+        "spatial_mass_q11",
+        "spatial_row_marginal_std",
+        "spatial_var_col",
+        "spatial_var_row"
+      ],
+      "models": {
+        "SVM_RBF": {
+          "mean_macro_f1": 0.8508754208754208,
+          "std_macro_f1": 0.03368895091470337,
+          "mean_accuracy": 0.8533333333333335,
+          "std_accuracy": 0.03399346342395189,
+          "per_fold_f1": [
+            0.8638888888888889,
+            0.8946969696969697,
+            0.8332491582491582,
+            0.7958754208754208,
+            0.8666666666666667
+          ],
+          "per_fold_accuracy": [
+            0.8666666666666667,
+            0.9,
+            0.8333333333333334,
+            0.8,
+            0.8666666666666667
+          ],
+          "pooled_f1": 0.8531652661064425,
+          "pooled_accuracy": 0.8533333333333334,
+          "bootstrap_ci_95": [
+            0.7908384901479032,
+            0.9067208202116784
+          ]
+        },
+        "RandomForest": {
+          "mean_macro_f1": 0.9103198653198653,
+          "std_macro_f1": 0.036544614491104736,
+          "mean_accuracy": 0.9133333333333333,
+          "std_accuracy": 0.03399346342395189,
+          "per_fold_f1": [
+            0.9326599326599329,
+            0.8946969696969697,
+            0.8585858585858587,
+            0.8993265993265993,
+            0.9663299663299664
+          ],
+          "per_fold_accuracy": [
+            0.9333333333333333,
+            0.9,
+            0.8666666666666667,
+            0.9,
+            0.9666666666666667
+          ],
+          "pooled_f1": 0.9125990139645602,
+          "pooled_accuracy": 0.9133333333333333,
+          "bootstrap_ci_95": [
+            0.8648611596275617,
+            0.9525526000547996
+          ]
+        }
+      }
+    },
+    "Frequency_Spectrum_Only": {
+      "families": [
+        "frequency"
+      ],
+      "n_features": 18,
+      "extraction_time_sec": 0.09357833862304688,
+      "feature_names": [
+        "dct_energy_s0",
+        "dct_energy_s1",
+        "dct_energy_s2",
+        "dct_energy_s3",
+        "dct_ratio_low",
+        "wavelet_energy_L1_D",
+        "wavelet_energy_L1_H",
+        "wavelet_energy_L1_V",
+        "wavelet_energy_L2_D",
+        "wavelet_energy_L2_H",
+        "wavelet_energy_L2_V",
+        "wavelet_energy_L3_D",
+        "wavelet_energy_L3_H",
+        "wavelet_energy_L3_V",
+        "wavelet_energy_approx",
+        "wavelet_entropy_L1",
+        "wavelet_entropy_L2",
+        "wavelet_entropy_L3"
+      ],
+      "models": {
+        "SVM_RBF": {
+          "mean_macro_f1": 0.7343295593295595,
+          "std_macro_f1": 0.10237765437635915,
+          "mean_accuracy": 0.7466666666666667,
+          "std_accuracy": 0.09797958971132717,
+          "per_fold_f1": [
+            0.648989898989899,
+            0.8624338624338624,
+            0.7937109187109188,
+            0.5833333333333334,
+            0.7831797831797832
+          ],
+          "per_fold_accuracy": [
+            0.6666666666666666,
+            0.8666666666666667,
+            0.8,
+            0.6,
+            0.8
+          ],
+          "pooled_f1": 0.7368442265170487,
+          "pooled_accuracy": 0.7466666666666667,
+          "bootstrap_ci_95": [
+            0.6711759374911598,
+            0.7987666711917069
+          ]
+        },
+        "RandomForest": {
+          "mean_macro_f1": 0.9197474747474746,
+          "std_macro_f1": 0.02667378658818752,
+          "mean_accuracy": 0.9200000000000002,
+          "std_accuracy": 0.02666666666666666,
+          "per_fold_f1": [
+            0.9023569023569022,
+            0.8946969696969697,
+            0.9026936026936027,
+            0.9326599326599326,
+            0.9663299663299664
+          ],
+          "per_fold_accuracy": [
+            0.9,
+            0.9,
+            0.9,
+            0.9333333333333333,
+            0.9666666666666667
+          ],
+          "pooled_f1": 0.9188247863247864,
+          "pooled_accuracy": 0.92,
+          "bootstrap_ci_95": [
+            0.8737388986563884,
+            0.9579698551508625
+          ]
+        }
+      }
+    },
+    "Edge_Boundary_Only": {
+      "families": [
+        "edge"
+      ],
+      "n_features": 11,
+      "extraction_time_sec": 0.11654925346374512,
+      "feature_names": [
+        "contrast_iqr",
+        "contrast_range",
+        "edge_density_t001",
+        "edge_density_t005",
+        "edge_density_t01",
+        "edge_magnitude_mean",
+        "edge_magnitude_std",
+        "local_var_mean_s3",
+        "local_var_mean_s5",
+        "local_var_std_s3",
+        "local_var_std_s5"
+      ],
+      "models": {
+        "SVM_RBF": {
+          "mean_macro_f1": 0.7850602175602176,
+          "std_macro_f1": 0.04239391090094242,
+          "mean_accuracy": 0.8,
+          "std_accuracy": 0.029814239699997188,
+          "per_fold_f1": [
+            0.7936868686868687,
+            0.8308080808080809,
+            0.8252525252525253,
+            0.7569088319088318,
+            0.7186447811447811
+          ],
+          "per_fold_accuracy": [
+            0.8,
+            0.8333333333333334,
+            0.8333333333333334,
+            0.7666666666666667,
+            0.7666666666666667
+          ],
+          "pooled_f1": 0.7975096474565664,
+          "pooled_accuracy": 0.8,
+          "bootstrap_ci_95": [
+            0.7329229604544429,
+            0.8518749661176696
+          ]
+        },
+        "RandomForest": {
+          "mean_macro_f1": 0.856085951085951,
+          "std_macro_f1": 0.06515330405988566,
+          "mean_accuracy": 0.86,
+          "std_accuracy": 0.06110100926607785,
+          "per_fold_f1": [
+            0.869023569023569,
+            0.8653198653198652,
+            0.7848068598068597,
+            0.794949494949495,
+            0.9663299663299663
+          ],
+          "per_fold_accuracy": [
+            0.8666666666666667,
+            0.8666666666666667,
+            0.8,
+            0.8,
+            0.9666666666666667
+          ],
+          "pooled_f1": 0.8589739229024943,
+          "pooled_accuracy": 0.86,
+          "bootstrap_ci_95": [
+            0.7983514571272148,
+            0.9113732317437921
+          ]
+        }
+      }
+    },
+    "All_Families_Combined": {
+      "families": [
+        "glcm",
+        "spatial",
+        "frequency",
+        "edge"
+      ],
+      "n_features": 59,
+      "extraction_time_sec": 0.5349712371826172,
+      "feature_names": [
+        "contrast_iqr",
+        "contrast_range",
+        "dct_energy_s0",
+        "dct_energy_s1",
+        "dct_energy_s2",
+        "dct_energy_s3",
+        "dct_ratio_low",
+        "edge_density_t001",
+        "edge_density_t005",
+        "edge_density_t01",
+        "edge_magnitude_mean",
+        "edge_magnitude_std",
+        "glcm_contrast_d1",
+        "glcm_contrast_d2",
+        "glcm_contrast_d3",
+        "glcm_correlation_d1",
+        "glcm_correlation_d2",
+        "glcm_correlation_d3",
+        "glcm_dissimilarity_d1",
+        "glcm_dissimilarity_d2",
+        "glcm_dissimilarity_d3",
+        "glcm_energy_d1",
+        "glcm_energy_d2",
+        "glcm_energy_d3",
+        "glcm_entropy_d1",
+        "glcm_entropy_d2",
+        "glcm_entropy_d3",
+        "glcm_homogeneity_d1",
+        "glcm_homogeneity_d2",
+        "glcm_homogeneity_d3",
+        "local_var_mean_s3",
+        "local_var_mean_s5",
+        "local_var_std_s3",
+        "local_var_std_s5",
+        "spatial_centroid_col",
+        "spatial_centroid_row",
+        "spatial_col_marginal_std",
+        "spatial_covar",
+        "spatial_entropy",
+        "spatial_mass_q00",
+        "spatial_mass_q01",
+        "spatial_mass_q10",
+        "spatial_mass_q11",
+        "spatial_row_marginal_std",
+        "spatial_var_col",
+        "spatial_var_row",
+        "wavelet_energy_L1_D",
+        "wavelet_energy_L1_H",
+        "wavelet_energy_L1_V",
+        "wavelet_energy_L2_D",
+        "wavelet_energy_L2_H",
+        "wavelet_energy_L2_V",
+        "wavelet_energy_L3_D",
+        "wavelet_energy_L3_H",
+        "wavelet_energy_L3_V",
+        "wavelet_energy_approx",
+        "wavelet_entropy_L1",
+        "wavelet_entropy_L2",
+        "wavelet_entropy_L3"
+      ],
+      "models": {
+        "SVM_RBF": {
+          "mean_macro_f1": 0.9194612794612794,
+          "std_macro_f1": 0.033980654733230746,
+          "mean_accuracy": 0.9199999999999999,
+          "std_accuracy": 0.03399346342395189,
+          "per_fold_f1": [
+            0.8993265993265993,
+            0.9326599326599326,
+            0.9326599326599326,
+            0.8663299663299663,
+            0.9663299663299663
+          ],
+          "per_fold_accuracy": [
+            0.9,
+            0.9333333333333333,
+            0.9333333333333333,
+            0.8666666666666667,
+            0.9666666666666667
+          ],
+          "pooled_f1": 0.9199786581299186,
+          "pooled_accuracy": 0.92,
+          "bootstrap_ci_95": [
+            0.8721921263710273,
+            0.9601510292172036
+          ]
+        },
+        "RandomForest": {
+          "mean_macro_f1": 0.9246464646464647,
+          "std_macro_f1": 0.026681000212013844,
+          "mean_accuracy": 0.9266666666666665,
+          "std_accuracy": 0.024944382578492935,
+          "per_fold_f1": [
+            0.932996632996633,
+            0.8943602693602694,
+            0.9326599326599326,
+            0.896885521885522,
+            0.9663299663299664
+          ],
+          "per_fold_accuracy": [
+            0.9333333333333333,
+            0.9,
+            0.9333333333333333,
+            0.9,
+            0.9666666666666667
+          ],
+          "pooled_f1": 0.9249312476716298,
+          "pooled_accuracy": 0.9266666666666666,
+          "bootstrap_ci_95": [
+            0.8807532067674508,
+            0.9619750944735019
+          ]
+        }
+      }
+    }
+  },
+  "statistical_comparisons": {
+    "SVM_RBF": [
+      {
+        "representation": "GLCM_Texture_Only",
+        "f1_combined": 0.9199786581299186,
+        "f1_single": 0.7904932081693089,
+        "observed_diff": 0.12948544996060973,
+        "p_raw": 0.0,
+        "p_holm": 0.0
+      },
+      {
+        "representation": "Frequency_Spectrum_Only",
+        "f1_combined": 0.9199786581299186,
+        "f1_single": 0.7368442265170487,
+        "observed_diff": 0.1831344316128699,
+        "p_raw": 0.0,
+        "p_holm": 0.0
+      },
+      {
+        "representation": "Edge_Boundary_Only",
+        "f1_combined": 0.9199786581299186,
+        "f1_single": 0.7975096474565664,
+        "observed_diff": 0.12246901067335225,
+        "p_raw": 0.0,
+        "p_holm": 0.0
+      },
+      {
+        "representation": "Spatial_Distribution_Only",
+        "f1_combined": 0.9199786581299186,
+        "f1_single": 0.8531652661064425,
+        "observed_diff": 0.06681339202347614,
+        "p_raw": 0.014,
+        "p_holm": 0.014
+      }
+    ],
+    "RandomForest": [
+      {
+        "representation": "Edge_Boundary_Only",
+        "f1_combined": 0.9249312476716298,
+        "f1_single": 0.8589739229024943,
+        "observed_diff": 0.06595732476913552,
+        "p_raw": 0.005,
+        "p_holm": 0.02
+      },
+      {
+        "representation": "GLCM_Texture_Only",
+        "f1_combined": 0.9249312476716298,
+        "f1_single": 0.9329257503884735,
+        "observed_diff": -0.007994502716843654,
+        "p_raw": 0.555,
+        "p_holm": 1.0
+      },
+      {
+        "representation": "Spatial_Distribution_Only",
+        "f1_combined": 0.9249312476716298,
+        "f1_single": 0.9125990139645602,
+        "observed_diff": 0.012332233707069595,
+        "p_raw": 0.689,
+        "p_holm": 1.0
+      },
+      {
+        "representation": "Frequency_Spectrum_Only",
+        "f1_combined": 0.9249312476716298,
+        "f1_single": 0.9188247863247864,
+        "observed_diff": 0.00610646134684345,
+        "p_raw": 0.852,
+        "p_holm": 1.0
+      }
+    ]
+  }
+}

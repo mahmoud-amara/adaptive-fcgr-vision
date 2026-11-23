@@ -1,0 +1,183 @@
+{
+  "protocol_version": "1.0.0-confirmatory",
+  "timestamp_utc": "2026-10-09T19:26:05.824345+00:00",
+  "seed": 42,
+  "n_genomes": 150,
+  "n_classes": 6,
+  "classes": [
+    "Bacillus",
+    "Escherichia",
+    "Mycobacterium",
+    "Pseudomonas",
+    "Salmonella",
+    "Staphylococcus"
+  ],
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "k_fcgr": 6,
+  "n_features": 59,
+  "total_elapsed_sec": 38.103554487228394,
+  "avg_fcgr_time_sec": 4.409178093274434,
+  "avg_feat_time_sec": 0.0034375603993733726,
+  "model_summary": {
+    "Adaptive_SVM_RBF": {
+      "mean_macro_f1": 0.9127946127946128,
+      "std_macro_f1": 0.03400706737177001,
+      "mean_accuracy": 0.9133333333333333,
+      "std_accuracy": 0.03399346342395189,
+      "mean_balanced_accuracy": 0.9133333333333333,
+      "per_fold_f1": [
+        0.899327,
+        0.93266,
+        0.899327,
+        0.86633,
+        0.96633
+      ],
+      "mean_ece": 0.17810018252430262,
+      "mean_brier": 0.17768919100679845
+    },
+    "Adaptive_SVM_Linear": {
+      "mean_macro_f1": 0.9198989898989899,
+      "std_macro_f1": 0.015777707362270674,
+      "mean_accuracy": 0.9199999999999999,
+      "std_accuracy": 0.016329931618554516,
+      "mean_balanced_accuracy": 0.9199999999999999,
+      "per_fold_f1": [
+        0.93266,
+        0.932997,
+        0.901515,
+        0.899663,
+        0.93266
+      ],
+      "mean_ece": 0.22269263889338103,
+      "mean_brier": 0.2026133473029365
+    },
+    "Adaptive_RandomForest": {
+      "mean_macro_f1": 0.9318013468013469,
+      "std_macro_f1": 0.022790186023561528,
+      "mean_accuracy": 0.9333333333333333,
+      "std_accuracy": 0.02108185106778919,
+      "mean_balanced_accuracy": 0.9333333333333332,
+      "per_fold_f1": [
+        0.932997,
+        0.89436,
+        0.93266,
+        0.93266,
+        0.96633
+      ],
+      "mean_ece": 0.07553333333333331,
+      "mean_brier": 0.09653066666666667
+    },
+    "Fixed_SVM_RBF": {
+      "mean_macro_f1": 0.9194612794612794,
+      "std_macro_f1": 0.033980654733230746,
+      "mean_accuracy": 0.9199999999999999,
+      "std_accuracy": 0.03399346342395189,
+      "mean_balanced_accuracy": 0.9199999999999999,
+      "per_fold_f1": [
+        0.899327,
+        0.93266,
+        0.93266,
+        0.86633,
+        0.96633
+      ],
+      "mean_ece": 0.1662509938037014,
+      "mean_brier": 0.14763666949639725
+    },
+    "Raw_FCGR_SVM_RBF": {
+      "mean_macro_f1": 0.9189730639730639,
+      "std_macro_f1": 0.027197260178918416,
+      "mean_accuracy": 0.9199999999999999,
+      "std_accuracy": 0.02666666666666666,
+      "mean_balanced_accuracy": 0.9199999999999999,
+      "per_fold_f1": [
+        0.899327,
+        0.894697,
+        0.96633,
+        0.901852,
+        0.93266
+      ],
+      "mean_ece": 0.15631271563459354,
+      "mean_brier": 0.14864763861590818
+    },
+    "Mash_1NN": {
+      "mean_macro_f1": 0.8340525215525215,
+      "std_macro_f1": 0.0375467674266576,
+      "mean_accuracy": 0.8266666666666668,
+      "std_accuracy": 0.038873012632301994,
+      "mean_balanced_accuracy": 0.8266666666666665,
+      "per_fold_f1": [
+        0.81713,
+        0.835378,
+        0.805886,
+        0.805886,
+        0.905983
+      ]
+    }
+  },
+  "bootstrap_cis": {
+    "Adaptive_SVM_RBF": {
+      "point_estimate": 0.9129091636654662,
+      "ci_lower": 0.8646719374115969,
+      "ci_upper": 0.9530950699867137
+    },
+    "Adaptive_SVM_Linear": {
+      "point_estimate": 0.9198120694818807,
+      "ci_lower": 0.8741421784009009,
+      "ci_upper": 0.9597698686750687
+    },
+    "Adaptive_RandomForest": {
+      "point_estimate": 0.9321106511344309,
+      "ci_lower": 0.8898119845576319,
+      "ci_upper": 0.9668221273994283
+    },
+    "Fixed_SVM_RBF": {
+      "point_estimate": 0.9199786581299186,
+      "ci_lower": 0.8721921263710273,
+      "ci_upper": 0.9601510292172036
+    },
+    "Raw_FCGR_SVM_RBF": {
+      "point_estimate": 0.9197941997311746,
+      "ci_lower": 0.8752951607639624,
+      "ci_upper": 0.9615527594715777
+    },
+    "Mash_1NN": {
+      "point_estimate": 0.8425209244729285,
+      "ci_lower": 0.7844474828950052,
+      "ci_upper": 0.8949672420882847
+    }
+  },
+  "permutation_tests": {
+    "Adaptive_SVM_Linear": {
+      "f1_model_a": 0.9129091636654662,
+      "f1_model_b": 0.9198120694818807,
+      "observed_diff": -0.006902905816414506,
+      "p_value": 0.733
+    },
+    "Adaptive_RandomForest": {
+      "f1_model_a": 0.9129091636654662,
+      "f1_model_b": 0.9321106511344309,
+      "observed_diff": -0.019201487468964773,
+      "p_value": 0.437
+    },
+    "Fixed_SVM_RBF": {
+      "f1_model_a": 0.9129091636654662,
+      "f1_model_b": 0.9199786581299186,
+      "observed_diff": -0.007069494464452486,
+      "p_value": 0.495
+    },
+    "Raw_FCGR_SVM_RBF": {
+      "f1_model_a": 0.9129091636654662,
+      "f1_model_b": 0.9197941997311746,
+      "observed_diff": -0.00688503606570845,
+      "p_value": 0.743
+    },
+    "Mash_1NN": {
+      "f1_model_a": 0.9129091636654662,
+      "f1_model_b": 0.8425209244729285,
+      "observed_diff": 0.07038823919253767,
+      "p_value": 0.016
+    }
+  },
+  "effect_threshold": 0.03
+}

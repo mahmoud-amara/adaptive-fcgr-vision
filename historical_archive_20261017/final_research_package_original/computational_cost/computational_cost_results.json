@@ -1,0 +1,423 @@
+{
+  "metadata": {
+    "benchmark_name": "computational_cost_rigorous_evaluation",
+    "timestamp_utc": "2026-10-12T14:01:42Z",
+    "environment": {
+      "cpu_model": "13th Gen Intel(R) Core(TM) i7-13650HX",
+      "cores_logical": 20,
+      "total_ram_gb": 16.0,
+      "os_platform": "Windows-11-10.0.26300-SP0",
+      "python_version": "3.14.3",
+      "numpy_version": "2.4.4",
+      "scipy_version": "1.18.1",
+      "sklearn_version": "1.9.1",
+      "thread_count": "default",
+      "random_seed": 42
+    }
+  },
+  "sequence_to_fcgr": {
+    "mean_sec_per_genome": 4.484088399998857,
+    "std_sec_per_genome": 1.7804727423764062,
+    "median_sec_per_genome": 3.4067461499992837,
+    "mean_sec_per_mb": 0.989919404302731,
+    "std_sec_per_mb": 0.31046875852195627,
+    "median_sec_per_mb": 0.8493578369644751,
+    "samples_evaluated": 6,
+    "repetitions_per_sample": 3,
+    "sample_breakdown": [
+      {
+        "accession": "NC_000964.3",
+        "genus": "Bacillus",
+        "length_bp": 4215606,
+        "length_mb": 4.216,
+        "mean_sec": 3.2179,
+        "std_sec": 0.0321,
+        "median_sec": 3.2188,
+        "sec_per_mb": 0.7633
+      },
+      {
+        "accession": "NC_000913.3",
+        "genus": "Escherichia",
+        "length_bp": 4641652,
+        "length_mb": 4.642,
+        "mean_sec": 3.4825,
+        "std_sec": 0.0469,
+        "median_sec": 3.5111,
+        "sec_per_mb": 0.7503
+      },
+      {
+        "accession": "NC_000962.3",
+        "genus": "Mycobacterium",
+        "length_bp": 4411532,
+        "length_mb": 4.412,
+        "mean_sec": 3.331,
+        "std_sec": 0.0947,
+        "median_sec": 3.2665,
+        "sec_per_mb": 0.7551
+      },
+      {
+        "accession": "NC_002516.2",
+        "genus": "Pseudomonas",
+        "length_bp": 6264404,
+        "length_mb": 6.264,
+        "mean_sec": 5.8596,
+        "std_sec": 2.2947,
+        "median_sec": 4.6803,
+        "sec_per_mb": 0.9354
+      },
+      {
+        "accession": "NC_003197.2",
+        "genus": "Salmonella",
+        "length_bp": 4857450,
+        "length_mb": 4.857,
+        "mean_sec": 7.8627,
+        "std_sec": 0.8731,
+        "median_sec": 8.1114,
+        "sec_per_mb": 1.6187
+      },
+      {
+        "accession": "NC_007795.1",
+        "genus": "Staphylococcus",
+        "length_bp": 2821361,
+        "length_mb": 2.821,
+        "mean_sec": 3.1508,
+        "std_sec": 0.7478,
+        "median_sec": 3.3818,
+        "sec_per_mb": 1.1168
+      }
+    ]
+  },
+  "feature_extraction_from_fcgr": {
+    "multiscale_59d": {
+      "mean_ms_per_genome": 8.053059333314499,
+      "std_ms_per_genome": 0.32704683801430545,
+      "median_ms_per_genome": 8.05894733328993,
+      "throughput_genomes_per_sec": 124.1764103069656,
+      "peak_memory_bytes": 480322,
+      "peak_memory_kb": 469.06
+    },
+    "glcm_18d": {
+      "mean_ms_per_genome": 3.146967466687784,
+      "std_ms_per_genome": 0.039212348898517456,
+      "median_ms_per_genome": 3.141190666744175,
+      "throughput_genomes_per_sec": 317.76623386974836,
+      "peak_memory_bytes": 442138,
+      "peak_memory_kb": 431.78
+    },
+    "raw_4096d": {
+      "mean_ms_per_genome": 0.002730399913464984,
+      "std_ms_per_genome": 0.00034238027881483167,
+      "median_ms_per_genome": 0.002578666511302193,
+      "throughput_genomes_per_sec": 366246.71538718336,
+      "peak_memory_bytes": 33488,
+      "peak_memory_kb": 32.7
+    }
+  },
+  "representation_storage": {
+    "Raw_FCGR_4096D": {
+      "shape": [
+        150,
+        4096
+      ],
+      "dtype": "float64",
+      "itemsize_bytes": 8,
+      "bytes_per_sample": 32768,
+      "total_matrix_bytes": 4915200,
+      "total_matrix_kb": 4800.0,
+      "total_matrix_mb": 4.6875,
+      "storage_reduction_ratio_vs_raw": 1.0
+    },
+    "Multiscale_59D": {
+      "shape": [
+        150,
+        59
+      ],
+      "dtype": "float64",
+      "itemsize_bytes": 8,
+      "bytes_per_sample": 472,
+      "total_matrix_bytes": 70800,
+      "total_matrix_kb": 69.14,
+      "total_matrix_mb": 0.0675,
+      "storage_reduction_ratio_vs_raw": 69.42
+    },
+    "GLCM_18D": {
+      "shape": [
+        150,
+        18
+      ],
+      "dtype": "float64",
+      "itemsize_bytes": 8,
+      "bytes_per_sample": 144,
+      "total_matrix_bytes": 21600,
+      "total_matrix_kb": 21.09,
+      "total_matrix_mb": 0.0206,
+      "storage_reduction_ratio_vs_raw": 227.56
+    },
+    "Spatial_12D": {
+      "shape": [
+        150,
+        12
+      ],
+      "dtype": "float64",
+      "itemsize_bytes": 8,
+      "bytes_per_sample": 96,
+      "total_matrix_bytes": 14400,
+      "total_matrix_kb": 14.06,
+      "total_matrix_mb": 0.0137,
+      "storage_reduction_ratio_vs_raw": 341.33
+    },
+    "Frequency_18D": {
+      "shape": [
+        150,
+        18
+      ],
+      "dtype": "float64",
+      "itemsize_bytes": 8,
+      "bytes_per_sample": 144,
+      "total_matrix_bytes": 21600,
+      "total_matrix_kb": 21.09,
+      "total_matrix_mb": 0.0206,
+      "storage_reduction_ratio_vs_raw": 227.56
+    },
+    "Edge_11D": {
+      "shape": [
+        150,
+        11
+      ],
+      "dtype": "float64",
+      "itemsize_bytes": 8,
+      "bytes_per_sample": 88,
+      "total_matrix_bytes": 13200,
+      "total_matrix_kb": 12.89,
+      "total_matrix_mb": 0.0126,
+      "storage_reduction_ratio_vs_raw": 372.36
+    },
+    "Mash_1000D_Sketch": {
+      "shape": [
+        150,
+        1000
+      ],
+      "dtype": "uint64",
+      "itemsize_bytes": 8,
+      "bytes_per_sample": 8000,
+      "total_matrix_bytes": 1200000,
+      "total_matrix_kb": 1171.88,
+      "total_matrix_mb": 1.1444,
+      "storage_reduction_ratio_vs_raw": 4.1
+    }
+  },
+  "model_performance_and_cost": {
+    "Raw_FCGR_4096D__SVM_RBF": {
+      "n_features": 4096,
+      "training_time_mean_ms": 17.939,
+      "training_time_std_ms": 1.563,
+      "training_time_median_ms": 17.528,
+      "training_peak_memory_kb": 3850.24,
+      "single_inference_latency_mean_ms": 0.3336,
+      "single_inference_latency_std_ms": 0.0349,
+      "single_inference_latency_median_ms": 0.3271,
+      "single_inference_latency_p95_ms": 0.3723,
+      "batch30_time_mean_ms": 5.319,
+      "batch30_throughput_genomes_per_sec": 5640.09,
+      "test_macro_f1_mean": 0.9472,
+      "test_macro_f1_std": 0.0334,
+      "test_accuracy_mean": 0.9467,
+      "test_accuracy_std": 0.034,
+      "train_macro_f1_mean": 0.9699,
+      "train_accuracy_mean": 0.97,
+      "generalization_gap_f1": 0.0227
+    },
+    "Raw_FCGR_4096D__RandomForest": {
+      "n_features": 4096,
+      "training_time_mean_ms": 846.411,
+      "training_time_std_ms": 11.064,
+      "training_time_median_ms": 842.28,
+      "training_peak_memory_kb": 2165.69,
+      "single_inference_latency_mean_ms": 6.1268,
+      "single_inference_latency_std_ms": 1.1706,
+      "single_inference_latency_median_ms": 5.9971,
+      "single_inference_latency_p95_ms": 6.714,
+      "batch30_time_mean_ms": 6.498,
+      "batch30_throughput_genomes_per_sec": 4617.0,
+      "test_macro_f1_mean": 0.9332,
+      "test_macro_f1_std": 0.0204,
+      "test_accuracy_mean": 0.9333,
+      "test_accuracy_std": 0.0211,
+      "train_macro_f1_mean": 1.0,
+      "train_accuracy_mean": 1.0,
+      "generalization_gap_f1": 0.0668
+    },
+    "Multiscale_59D__SVM_RBF": {
+      "n_features": 59,
+      "training_time_mean_ms": 5.009,
+      "training_time_std_ms": 0.117,
+      "training_time_median_ms": 4.969,
+      "training_peak_memory_kb": 63.25,
+      "single_inference_latency_mean_ms": 0.1337,
+      "single_inference_latency_std_ms": 0.0275,
+      "single_inference_latency_median_ms": 0.1286,
+      "single_inference_latency_p95_ms": 0.1498,
+      "batch30_time_mean_ms": 0.372,
+      "batch30_throughput_genomes_per_sec": 80578.23,
+      "test_macro_f1_mean": 0.9195,
+      "test_macro_f1_std": 0.034,
+      "test_accuracy_mean": 0.92,
+      "test_accuracy_std": 0.034,
+      "train_macro_f1_mean": 0.9432,
+      "train_accuracy_mean": 0.9433,
+      "generalization_gap_f1": 0.0238
+    },
+    "Multiscale_59D__RandomForest": {
+      "n_features": 59,
+      "training_time_mean_ms": 822.046,
+      "training_time_std_ms": 330.575,
+      "training_time_median_ms": 744.207,
+      "training_peak_memory_kb": 205.93,
+      "single_inference_latency_mean_ms": 11.8871,
+      "single_inference_latency_std_ms": 8.7448,
+      "single_inference_latency_median_ms": 11.1702,
+      "single_inference_latency_p95_ms": 32.352,
+      "batch30_time_mean_ms": 13.227,
+      "batch30_throughput_genomes_per_sec": 2268.05,
+      "test_macro_f1_mean": 0.9246,
+      "test_macro_f1_std": 0.0267,
+      "test_accuracy_mean": 0.9267,
+      "test_accuracy_std": 0.0249,
+      "train_macro_f1_mean": 1.0,
+      "train_accuracy_mean": 1.0,
+      "generalization_gap_f1": 0.0754
+    },
+    "Multiscale_59D__RandomForest_Regularized": {
+      "n_features": 59,
+      "training_time_mean_ms": 1758.694,
+      "training_time_std_ms": 709.458,
+      "training_time_median_ms": 1472.668,
+      "training_peak_memory_kb": 205.18,
+      "single_inference_latency_mean_ms": 24.4388,
+      "single_inference_latency_std_ms": 11.2954,
+      "single_inference_latency_median_ms": 26.8846,
+      "single_inference_latency_p95_ms": 42.6592,
+      "batch30_time_mean_ms": 24.114,
+      "batch30_throughput_genomes_per_sec": 1244.07,
+      "test_macro_f1_mean": 0.9122,
+      "test_macro_f1_std": 0.0339,
+      "test_accuracy_mean": 0.9133,
+      "test_accuracy_std": 0.034,
+      "train_macro_f1_mean": 0.9867,
+      "train_accuracy_mean": 0.9867,
+      "generalization_gap_f1": 0.0744
+    },
+    "GLCM_18D__RandomForest": {
+      "n_features": 18,
+      "training_time_mean_ms": 2563.422,
+      "training_time_std_ms": 101.879,
+      "training_time_median_ms": 2533.355,
+      "training_peak_memory_kb": 185.27,
+      "single_inference_latency_mean_ms": 28.2138,
+      "single_inference_latency_std_ms": 4.2112,
+      "single_inference_latency_median_ms": 26.9916,
+      "single_inference_latency_p95_ms": 35.1798,
+      "batch30_time_mean_ms": 28.856,
+      "batch30_throughput_genomes_per_sec": 1039.66,
+      "test_macro_f1_mean": 0.9331,
+      "test_macro_f1_std": 0.0371,
+      "test_accuracy_mean": 0.9333,
+      "test_accuracy_std": 0.0365,
+      "train_macro_f1_mean": 1.0,
+      "train_accuracy_mean": 1.0,
+      "generalization_gap_f1": 0.0669
+    },
+    "Mash_1NN__Distance_Baseline": {
+      "n_features": 1000,
+      "training_time_mean_ms": 0.313,
+      "training_time_std_ms": 0.13,
+      "training_time_median_ms": 0.213,
+      "training_peak_memory_kb": 11.24,
+      "single_inference_latency_mean_ms": 82.1697,
+      "single_inference_latency_std_ms": 6.661,
+      "single_inference_latency_median_ms": 80.8538,
+      "single_inference_latency_p95_ms": 91.721,
+      "batch30_time_mean_ms": 2531.388,
+      "batch30_throughput_genomes_per_sec": 11.85,
+      "test_macro_f1_mean": 0.877,
+      "test_macro_f1_std": 0.0373,
+      "test_accuracy_mean": 0.8733,
+      "test_accuracy_std": 0.0389,
+      "train_macro_f1_mean": 1.0,
+      "train_accuracy_mean": 1.0,
+      "generalization_gap_f1": 0.123
+    }
+  },
+  "end_to_end_pipelines": {
+    "Raw_FCGR_4096D__SVM_RBF": {
+      "precomputed_pipeline": {
+        "feature_extraction_ms": 0.003,
+        "inference_latency_ms": 0.327,
+        "total_latency_ms": 0.33,
+        "throughput_genomes_per_sec": 3033.26
+      },
+      "raw_sequence_pipeline": {
+        "sequence_to_fcgr_sec": 3.407,
+        "feature_and_inference_ms": 0.33,
+        "total_time_sec": 3.407,
+        "throughput_genomes_per_sec": 0.294
+      }
+    },
+    "Multiscale_59D__SVM_RBF": {
+      "precomputed_pipeline": {
+        "feature_extraction_ms": 8.059,
+        "inference_latency_ms": 0.129,
+        "total_latency_ms": 8.188,
+        "throughput_genomes_per_sec": 122.14
+      },
+      "raw_sequence_pipeline": {
+        "sequence_to_fcgr_sec": 3.407,
+        "feature_and_inference_ms": 8.188,
+        "total_time_sec": 3.415,
+        "throughput_genomes_per_sec": 0.293
+      }
+    },
+    "Raw_FCGR_4096D__RandomForest": {
+      "precomputed_pipeline": {
+        "feature_extraction_ms": 0.003,
+        "inference_latency_ms": 5.997,
+        "total_latency_ms": 6.0,
+        "throughput_genomes_per_sec": 166.68
+      },
+      "raw_sequence_pipeline": {
+        "sequence_to_fcgr_sec": 3.407,
+        "feature_and_inference_ms": 6.0,
+        "total_time_sec": 3.413,
+        "throughput_genomes_per_sec": 0.293
+      }
+    },
+    "Multiscale_59D__RandomForest": {
+      "precomputed_pipeline": {
+        "feature_extraction_ms": 8.059,
+        "inference_latency_ms": 11.17,
+        "total_latency_ms": 19.229,
+        "throughput_genomes_per_sec": 52.0
+      },
+      "raw_sequence_pipeline": {
+        "sequence_to_fcgr_sec": 3.407,
+        "feature_and_inference_ms": 19.229,
+        "total_time_sec": 3.426,
+        "throughput_genomes_per_sec": 0.292
+      }
+    },
+    "GLCM_18D__RandomForest": {
+      "precomputed_pipeline": {
+        "feature_extraction_ms": 3.141,
+        "inference_latency_ms": 26.992,
+        "total_latency_ms": 30.133,
+        "throughput_genomes_per_sec": 33.19
+      },
+      "raw_sequence_pipeline": {
+        "sequence_to_fcgr_sec": 3.407,
+        "feature_and_inference_ms": 30.133,
+        "total_time_sec": 3.437,
+        "throughput_genomes_per_sec": 0.291
+      }
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "NC_017659.1": {
+    "accession": "NC_011353.1",
+    "title": "NC_011353.1 Escherichia coli O157:H7 str. EC4115, complete sequence",
+    "organism": "Escherichia",
+    "length": 5572075,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "2544b710004bac9ddbc0b5c5a9102dda9f21e927ab91f2264937aa1c83064bf8"
+  },
+  "NC_017637.1": {
+    "accession": "NC_012759.1",
+    "title": "NC_012759.1 Escherichia coli BW2952, complete sequence",
+    "organism": "Escherichia",
+    "length": 4578159,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "86869896daf56cd9516f215b73a104816889d6410ea06ece0e9258676694f797"
+  },
+  "NC_016855.1": {
+    "accession": "NC_010102.1",
+    "title": "NC_010102.1 Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7, complete sequence",
+    "organism": "Salmonella",
+    "length": 4858887,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "0d18cfe94f7869704bc88ea3733dd3c089e49f83c9c7705dfb8b98136c8614df"
+  },
+  "NC_016858.1": {
+    "accession": "NC_021151.1",
+    "title": "NC_021151.1 Salmonella enterica subsp. enterica serovar Typhimurium str. U288, complete sequence",
+    "organism": "Salmonella",
+    "length": 4852606,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "ef8ef2842aa5a171ec213c2029ed5d30268823fe1baff92474af64772703257d"
+  },
+  "NC_016859.1": {
+    "accession": "NC_021812.1",
+    "title": "NC_021812.1 Salmonella enterica subsp. enterica Serovar Heidelberg str. CFSAN002069, complete genome",
+    "organism": "Salmonella",
+    "length": 4783952,
+    "ambig_count": 1,
+    "ambig_frac": 2.0903219764746803e-07,
+    "sha256": "742d10585e3d85d6624291564c604e7d5d6c146063ea7cf34dff2ac653fbe1c5"
+  },
+  "NC_016861.1": {
+    "accession": "NC_021844.1",
+    "title": "NC_021844.1 Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000189, complete sequence",
+    "organism": "Salmonella",
+    "length": 4730612,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "8dc62f0cd6eab55415b3dea908822f8da4d264bd1c8d807970dfa99a7cb38672"
+  },
+  "NC_016862.1": {
+    "accession": "NC_022569.1",
+    "title": "NC_022569.1 Salmonella enterica subsp. enterica serovar Typhimurium str. DT104, complete sequence",
+    "organism": "Salmonella",
+    "length": 4933631,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "a0e8cafc70a592a41b6b2803edda7624d9df8d439c6cc960f700670a6100e27d"
+  },
+  "NC_016864.1": {
+    "accession": "NC_020307.1",
+    "title": "NC_020307.1 Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992, complete sequence",
+    "organism": "Salmonella",
+    "length": 4634161,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "bf35192aaa027780170de5f6068c4b047423f111e34d13b855e543ed2e1c27c4"
+  },
+  "NC_017533.1": {
+    "accession": "NC_022808.1",
+    "title": "NC_022808.1 Pseudomonas aeruginosa PA1, complete genome",
+    "organism": "Pseudomonas",
+    "length": 6528877,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "ca2db7f52866810f098051e4a3d03e1b6e4f60809e1330c6ff8ba14e8f42b05c"
+  },
+  "NC_022596.1": {
+    "accession": "NC_018080.1",
+    "title": "NC_018080.1 Pseudomonas aeruginosa DK2, complete sequence",
+    "organism": "Pseudomonas",
+    "length": 6402658,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "87d10aa0a1a57372862630dd50b13897571c4d89462c173ca15c2ddfb1e9c378"
+  },
+  "NC_017196.1": {
+    "accession": "NC_016047.1",
+    "title": "NC_016047.1 Bacillus spizizenii TU-B-10, complete sequence",
+    "organism": "Bacillus",
+    "length": 4207222,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "679951197942606570ac64753a302ab7c0d45b09761be82cac9dc032aaac8e0f"
+  },
+  "NC_017263.1": {
+    "accession": "NC_017208.1",
+    "title": "NC_017208.1 Bacillus thuringiensis serovar chinensis CT-43, complete sequence",
+    "organism": "Bacillus",
+    "length": 5486830,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "1d30e2f735de0fcdf454e8023c932bf57a3b604e7845f8eb92eb6b9fb7b777db"
+  },
+  "NC_008899.1": {
+    "accession": "NC_017763.1",
+    "title": "NC_017763.1 Staphylococcus aureus subsp. aureus HO 5096 0412, complete sequence",
+    "organism": "Staphylococcus",
+    "length": 2832299,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "9799671038f235a647b4b7f18818d385773841454f0686005cccbf577114c418"
+  },
+  "NC_017345.1": {
+    "accession": "NC_017353.1",
+    "title": "NC_017353.1 Staphylococcus lugdunensis N920143, complete sequence",
+    "organism": "Staphylococcus",
+    "length": 2595888,
+    "ambig_count": 7,
+    "ambig_frac": 2.6965724253126483e-06,
+    "sha256": "e9364f9a27e6b5bf6a4a48fff0c70eb2e6378a32bb9adaf429cba41d1a84ee7f"
+  },
+  "NC_018144.2": {
+    "accession": "NC_017524.1",
+    "title": "NC_017524.1 Mycobacterium tuberculosis CTRI-2, complete sequence",
+    "organism": "Mycobacterium",
+    "length": 4398525,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "3020bb263f2be896fd2e8f77dc1d18b1ecfe35bf5dd08e24ecb95a018c78e8a8"
+  },
+  "NC_018507.1": {
+    "accession": "NC_016768.1",
+    "title": "NC_016768.1 Mycobacterium tuberculosis KZN 4207, complete sequence",
+    "organism": "Mycobacterium",
+    "length": 4394985,
+    "ambig_count": 0,
+    "ambig_frac": 0.0,
+    "sha256": "f784e992a07c170b0e699639b4f265a6c21b32feee798b0db05e42ae6d73da33"
+  },
+  "NC_022517.1": {
+    "accession": "NC_019950.1",
+    "title": "NC_019950.1 Mycobacterium canetti CIPT 140060008, complete sequence",
+    "organism": "Mycobacterium",
+    "length": 4432426,
+    "ambig_count": 1172,
+    "ambig_frac": 0.0002644150178705747,
+    "sha256": "9724786b8a2718d9e21fa48b00478b9c825065694abaf029564b67d763815586"
+  }
+}
